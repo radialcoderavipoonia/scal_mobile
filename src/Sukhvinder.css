@@ -102,7 +102,7 @@
   .overflow_hidden_xl {
     overflow: hidden !important;
   }
-  .vh_100_1200 {
+  .vh_100_md {
     min-height: 100vh;
   }
 }

@@ -49,10 +49,10 @@ const MyNav = () => {
           </div>
           {/* nav */}
           <div className={`nav_show ${First ? " " : "ps-0 showw"}`}>
-            <div className="vh_100_1200 py-2 position-relative">
+            <div className="vh_100_md py-2 position-relative">
               <div>
                 <div className="nav_container">
-                  <div className="d-flex align-items-center flex-md-row flex-column justify-content-center justify-content-md-between  vh_100_1200">
+                  <div className="d-flex align-items-center flex-md-row flex-column justify-content-center justify-content-md-between  vh_100_md">
                     <span className="d-md-block d-none me-3 z_10">
                       <img
                         src={nav_logo}
@@ -93,7 +93,7 @@ const MyNav = () => {
                         </li>
                       </ul>
                     </div>
-                    <button className="nav_btn">Contact Us</button>
+                    <button className="nav_btn d-md-block d-none">Contact Us</button>
                   </div>
                 </div>
               </div>
