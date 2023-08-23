@@ -3,6 +3,14 @@
 .ff_rubik {
   font-family: "Rubik", sans-serif;
 }
+/* container  */
+.my_container{
+  max-width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 :root {
   --fs-sm: 14px;
   --fs-md: 16px;
