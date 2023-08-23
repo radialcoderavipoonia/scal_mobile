@@ -48,3 +48,9 @@
 .bg_body {
   background-color: var(--bg-body);
 }
+.color_white {
+  color: White;
+}
+.transition_30ms {
+  transition: 300ms;
+}
