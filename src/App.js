@@ -9,6 +9,7 @@ import Services from './components/Services';
 // or other themes
 // import '@splidejs/react-splide/css/skyblue';
 import '@splidejs/react-splide/css/sea-green';
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <MyNav/>
         <ContactUs />
         <Services/>
+      <Products />
       </div>
+     
     </>
   );
 }
