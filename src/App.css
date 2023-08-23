@@ -4,7 +4,7 @@
   font-family: "Rubik", sans-serif;
 }
 /* container  */
-.my_container{
+.my_container {
   max-width: 1164px;
   margin-left: auto;
   margin-right: auto;
@@ -21,6 +21,7 @@
   --fs-5xl: 48px;
   --fs-7xl: 180px;
   --clr-blue: #95d8eb;
+  --clr-white: #fff;
   --bg-body: #000;
 }
 /* font sizes  */
@@ -51,6 +52,9 @@
 /* colors  */
 .color_blue {
   color: var(--clr-blue);
+}
+.clr_white {
+  color: var(--clr-white);
 }
 /* background color  */
 .bg_body {

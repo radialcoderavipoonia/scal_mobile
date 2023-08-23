@@ -68,16 +68,16 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="ff_rubik text-white fs_md fw-medium me-md-4 position-relative hover_line"
+                            className="ff_rubik opacity_07 clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
                           >
-                            HOME
+                            Home
                           </a>
                         </li>
                         <li>
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik text-white fs_mdfw-medium me-md-4 position-relative hover_line"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
                           >
                             About Us
                           </a>
@@ -86,14 +86,16 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik text-white fs_mdfw-medium position-relative hover_line"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-medium position-relative hover_line hover_opacity_1"
                           >
                             Why Choose Us
                           </a>
                         </li>
                       </ul>
                     </div>
-                    <button className="nav_btn d-md-block d-none">Contact Us</button>
+                    <button className="nav_btn d-md-block d-none">
+                      Contact Us
+                    </button>
                   </div>
                 </div>
               </div>
