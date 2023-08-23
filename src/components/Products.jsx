@@ -7,7 +7,7 @@ import ps from "../assets/images/svg/proshadow.svg";
 const Products = () => {
   return (
     <>
-      <section className="bg_body position-relative">
+      <section className="bg_body position-relative ">
         <div className="sec_shadow"></div>
         <h2 className="text-center ff_rubik fw-medium fs_4xl color_white mb-0">
           Products
