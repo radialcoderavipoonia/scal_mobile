@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+/* font family  */
+.ff_rubik {
+  font-family: "Rubik", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 20px;
+  --fs-3xl: 28px;
+  --fs-4xl: 40px;
+  --fs-5xl: 48px;
+  --fs-7xl: 180px;
+  --clr-blue: #95d8eb;
+  --bg-body: #000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* font sizes  */
+.fs_sm {
+  font-size: var(--fs-sm);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fs_md {
+  font-size: var(--fs-md);
 }
-
-.App-link {
-  color: #61dafb;
+.fs_lg {
+  font-size: var(--fs-lg);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+/* colors  */
+.color_blue {
+  color: var(--clr-blue);
+}
+/* background color  */
+.bg_body {
+  background-color: var(--bg-body);
 }
