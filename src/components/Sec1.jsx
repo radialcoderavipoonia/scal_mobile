@@ -6,7 +6,7 @@ import sec3 from "../assets/images/webp/sec3.webp";
 const Sec1 = () => {
   return (
     <>
-      <section className="position-relative py-5  overflow-x-hidden">
+      <section className="position-relative py-5 z-3 overflow_x_hidden">
         <div className="blue_ellipse"></div>
         <div className="blue_ellipse2"></div>
         <div className="green_ellipse"></div>
@@ -70,14 +70,17 @@ const Sec1 = () => {
               </div>
             </Col>
           </Row>
-          <div className="d-flex align-items-center justify-content-center w-100 py-3 mt-5 mb_70px ">
-            <div className="mw_881px bg_pro py-4 sec_pera px-5 bg_lg_blue">
-              <p className="text-center ff_rubik fw-medium fs_lg color_white py-2 px-5">
-                Browse our wide assortment of smartphones and services, find
-                what responds to your demands, and let us do what we know best;
-                offer you the most pleasant, smooth, and stress-free client
-                experience.
-              </p>
+          <div className="d-flex align-items-center justify-content-center w-100 py-3 mt-5 mb_70px pt-5 position-relative z-1 ">
+            <div className="mw_881px  py-4 secpera px-lg-5 bg_lg_blue">
+              <div className="position-relative">
+                <div className="peracenter_shadow"></div>
+                <p className="text-center ff_rubik fw-medium fs_lg color_white py-2 px-sm-5 mb-0">
+                  Browse our wide assortment of smartphones and services, find
+                  what responds to your demands, and let us do what we know
+                  best; offer you the most pleasant, smooth, and stress-free
+                  client experience.
+                </p>
+              </div>
             </div>
           </div>
         </Container>

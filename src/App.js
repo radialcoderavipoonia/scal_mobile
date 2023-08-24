@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Sec1/>
-      {/* <Products /> */}
+      <Products />
       <Myfooter />
     </>
   );

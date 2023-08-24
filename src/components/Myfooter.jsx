@@ -8,7 +8,7 @@ import twitter from "../assets/images/webp/Frame 51.webp";
 const Myfooter = () => {
   return (
     <>
-      <footer className="footer_bg z-3 pt-5 pb-3">
+      <footer className="position-relative footer_bg z-3 pt-5 pb-3">
         <Container>
           <Row className="justify-content-between">
             <Col lg={3} md={6}>
