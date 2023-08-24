@@ -12,6 +12,7 @@ import "@splidejs/react-splide/css/sea-green";
 import Products from "./components/Products";
 import { Hero } from "./components/Hero";
 import { ChooseUs } from "./components/ChooseUs";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ContactUs />
         <Services />
         <Products />
+        <AboutUs />
       </div>
     </>
   );
