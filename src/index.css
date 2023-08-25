@@ -635,6 +635,9 @@ div.accordion-body {
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
 }
+::-webkit-scrollbar {
+  display: none !important;
+}
 .secpera {
   border-image-source: linear-gradient(
     136.39deg,
