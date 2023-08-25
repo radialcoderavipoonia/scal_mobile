@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import heromap from "../assets/images/webp/heromap.webp";
+import heromap from "../assets/images/png/hero_map.png";
 import MyNav from "./MyNav";
 export const Hero = () => {
   return (
     <>
-      <div className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative">
+      <div className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3">
         <div className=" hero_green_shadow position-absolute"></div>
         <MyNav />
         <Container className="my_container pt-4 mt-2 flex-grow-1 d-flex flex-column justify-content-center">

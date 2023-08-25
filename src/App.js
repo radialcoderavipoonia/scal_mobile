@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="overflow-hidden bg_body">
-        <div className=" position-relative">
+        <div className=" position-relative line_back">
           <div className="nav_shadow position-absolute"></div>
           <Hero />
         </div>

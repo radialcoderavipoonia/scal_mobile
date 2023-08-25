@@ -13,7 +13,7 @@ export const ChooseUs = () => {
         </p>
         <div className="position-relative road_line mt-5">
           {/* 1 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20">
+          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 hover_circle">
             <Col
               md={5}
               sm={5}
