@@ -75,7 +75,7 @@ const MyNav = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="#aboutus"
                             onClick={clickshow}
                             className="opacity_07 ff_rubik clr_white fs_md fw-normal me-md-4 position-relative  hover_opacity_1"
                           >
@@ -84,7 +84,7 @@ const MyNav = () => {
                         </li>
                         <li>
                           <a
-                            href="#"
+                            href="#choose"
                             onClick={clickshow}
                             className="opacity_07 ff_rubik clr_white fs_md fw-normal position-relative  hover_opacity_1"
                           >

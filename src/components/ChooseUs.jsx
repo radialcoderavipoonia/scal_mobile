@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const ChooseUs = () => {
   return (
-    <div className="choose_bg">
+    <div className="choose_bg" id="choose">
       <Container className=" my_container pb-5">
         <p className=" ff_rubik fw-medium text-center clr_white fs_4xl mb-0">
           Why Choose Us?
