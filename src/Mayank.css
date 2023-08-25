@@ -259,12 +259,6 @@ div.accordion-body {
 .mw_473px {
   max-width: 473px;
 }
-.faqimg{
-  position: relative;
-  top: 0% !important;
-  left: -30%;
- 
-}
 /* ==========================================Media Quries============================================================= */
 @media (max-width: 992px) {
   .mb_70px {
