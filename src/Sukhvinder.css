@@ -355,7 +355,7 @@
   }
   .nav_show.showw {
     opacity: 10;
-    min-height: 518px;
+    min-height: 350px;
     z-index: 6;
     clip-path: circle(75%);
     background-color: var(--bs-black) !important;
@@ -364,7 +364,7 @@
     overflow: hidden !important;
   }
   .nav_height {
-    min-height: 518px !important;
+    min-height: 350px !important;
   }
   .road_line::after {
     left: 20px;

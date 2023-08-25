@@ -5,7 +5,7 @@ import { Col, } from "react-bootstrap";
 const Services = () => {
   return (
     <>
-      <section className="Services_bg py-5" id="services">
+      <section className="Services_bg py-md-5 pb-5" id="services">
         <div className="container my_container py-5 my-xl-4">
           <h2 className="ff_rubik fw-medium fs_4xl text-center mb-0 text-white pt-1">
             Services

@@ -12,8 +12,8 @@ const Sec1 = () => {
         <div className="blue_ellipse scale_animation"></div>
         <div className="blue_ellipse2 scale_animation"></div>
         <div className="green_ellipse scale_animation"></div>
-        <Container className="pb-5 mt-2">
- 
+
+        <div className="pb-5 mt-2 my_container container">
           <Row className="align-items-center justify-content-between">
             <Col lg={6} data-aos="fade-right" data-aos-duration="1500">
               <div>
@@ -65,7 +65,7 @@ const Sec1 = () => {
               </div>
             </Col>
           </Row>
-          
+
           <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pb-4 pt-lg-0">
             <Col lg={5} md={9} data-aos="fade-right" data-aos-duration="1500">
               <div>
@@ -91,11 +91,11 @@ const Sec1 = () => {
             </Col>
           </Row>
           <div
-            className="d-flex align-items-center justify-content-center w-100 mt-5 mb-xl-5 pt-3 position-relative z-1 "
+            className="d-flex align-items-center justify-content-center w-100 mt-md-5 mb-xl-5 pt-3 position-relative z-1 "
             data-aos="flip-left"
             data-aos-duration="1500"
           >
-            <div className="mw_881 mb-5 py-4 secpera px-lg-5 bg_lg_blue">
+            <div className="mw_881 mb-md-5 my-md-0 my-3 py-4 secpera px-lg-5 bg_lg_blue">
               <div className="position-relative">
                 <div className="peracenter_shadow"></div>
                 <p className="text-center ff_rubik fw-medium fs_lg color_white py-2 px-sm-5 mb-0">
@@ -107,7 +107,7 @@ const Sec1 = () => {
               </div>
             </div>
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );

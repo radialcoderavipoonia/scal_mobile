@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <>
       <section className="py-lg-5 my-xl-5" id="aboutus">
-        <div className="my_container container position-relative about_green mt-5 pt_36 pb-4">
+        <div className="my_container container position-relative about_green mt-md-5 mt-4 pt_36 pb-4">
           <h2 className="ff_rubik fs_4xl fw-medium text-lg-start text-center text-white mb-0">
             About Us
           </h2>

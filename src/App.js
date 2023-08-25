@@ -5,9 +5,6 @@ import "./Ravi.css";
 import "./Sukhvinder.css";
 import "./Mayank.css";
 import ContactUs from "./components/ContactUs";
-// import Services from "./components/Services";
-// or other themes
-// import '@splidejs/react-splide/css/skyblue';
 import "@splidejs/react-splide/css/sea-green";
 import { Hero } from "./components/Hero";
 import { ChooseUs } from "./components/ChooseUs";

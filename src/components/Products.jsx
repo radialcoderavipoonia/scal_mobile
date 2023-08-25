@@ -4,13 +4,13 @@ import { ProductsCard } from "./Helper";
 const Products = () => {
   return (
     <>
-      <section className="position-relative z-0 my-5 py-5" id="products">
+      <section className="position-relative z-0 my-md-5 my-xs-4 py-5" id="products">
         <div className="sec_shadow z-0 scale_animation"></div>
         <h2 className="text-center ff_rubik fw-medium fs_4xl color_white mb-0">
           Products
         </h2>
         <Container className="my_container pb-xl-5">
-          <Row className="pt-lg-5 pt-3 mt-5 justify-content-center">
+          <Row className="pt-lg-5 pt-xs-3 mt-5 justify-content-center">
             {ProductsCard.map((phone) => {
               return (
                 <Col
