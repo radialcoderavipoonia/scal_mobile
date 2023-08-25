@@ -21,9 +21,10 @@ import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
 import "aos/dist/aos.css";
 function App() {
-  Aos.init(
-  
-  );
+  Aos.init({
+    once: true,
+    disable: "mobile",
+  });
   return (
     <>
       <BackToTop />
