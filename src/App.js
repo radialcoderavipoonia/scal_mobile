@@ -15,12 +15,8 @@ import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
 import Services from "./components/Services"
 import Sec1 from "./components/Sec1";
-<<<<<<< HEAD
-import Faqs from "./components/Faqs";
-=======
 import BackToTop from "./components/BackToTop";
->>>>>>> 4825b3de8bbc4a2cd731737b45561408680c257a
-
+import Faqs from "./components/Faqs";
 function App() {
   return (
     <>

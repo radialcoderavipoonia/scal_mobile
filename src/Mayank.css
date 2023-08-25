@@ -263,6 +263,30 @@ div.accordion-body {
 .mw_473px {
   max-width: 473px;
 }
+
+.blue_ellipse3 {
+  height: 287px;
+  width: 287px;
+  border-radius: 50%;
+  background-color: rgba(0, 118, 190, 1);
+  filter: blur(80px);
+  opacity: 40%;
+  position: absolute;
+  top: 0%;
+  right: -10%;
+  z-index: 2 !important;
+}
+.green_ellipse2 {
+  height: 384px;
+  width: 384px;
+  border-radius: 50%;
+  background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
+  filter: blur(120px);
+  opacity: 40%;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+}
 /* ==========================================Media Quries============================================================= */
 @media (max-width: 992px) {
   .mb_70px {

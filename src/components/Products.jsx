@@ -4,7 +4,7 @@ import { ProductsCard } from "./Helper";
 const Products = () => {
   return (
     <>
-      <section className=" position-relative py-5 mb-xl-5 z-0 py-5 my-4">
+      <section className=" position-relative py-5 mb-xl-5 z-0 py-5 my-4"id="products">
         <div className="sec_shadow z-0"></div>
         <h2 className="text-center ff_rubik fw-medium fs_4xl color_white mb-0">
           Products
