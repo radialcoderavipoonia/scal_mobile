@@ -230,7 +230,11 @@ input {
 .accordion_border:hover {
   border: 2px solid #6ca0b0;
 }
-
+@media (min-width:1400px) {
+ .position_absolute{
+  position: absolute;
+ }
+}
 @media (max-width: 1250px) {
   .left_arrow {
     left: 40% !important;
