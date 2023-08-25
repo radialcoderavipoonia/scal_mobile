@@ -206,6 +206,66 @@
 .icons_hover:hover {
   transform: scale(1.2);
 }
+/* =============================================FAQS================================================================== */
+.accordion-item:first-of-type .accordion-button {
+  color: white;
+  background-color: transparent !important;
+}
+.accordion-item .accordion-button {
+  background-color: transparent !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accordion-body {
+  background-color: transparent !important;
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: white;
+}
+.accordion {
+  --bs-accordion-btn-active-icon: url(./assets/images/svg/up_arrow.svg) !important;
+  --bs-accordion-btn-icon: url(./assets/images/svg/down_arrow.svg) !important;
+  --bs-accordion-border-color: transparent !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-btn-padding-x: 0px !important;
+  --bs-accordion-body-padding-x: 0px !important;
+  position: relative !important;
+  z-index: 6 !important;
+  --bs-accordion-inner-border-radius: 0 !important;
+}
+.accordion-item {
+  background-color: transparent !important;
+  z-index: 2 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.307) !important ;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: transparent !important;
+}
+div.accordion-body {
+  padding-top: 0;
+}
+
+.Accordion {
+  --bs-accordion-btn-active-icon: url(./assets/images/svg/down_arrow.svg) !important;
+  --bs-accordion-btn-icon: url(./assets/images/svg/up_arrow.svg) !important;
+}
+.accordion-button::after {
+  margin-top: 12px;
+}
+
+.mw_473px {
+  max-width: 473px;
+}
+.faqimg{
+  position: relative;
+  top: 0% !important;
+  left: -30%;
+ 
+}
+/* ==========================================Media Quries============================================================= */
 @media (max-width: 992px) {
   .mb_70px {
     margin-bottom: 20px;
@@ -234,7 +294,6 @@
   .blue_ellipse {
     height: 187px;
     width: 187px;
-   
   }
   .blue_ellipse2 {
     height: 187px;
