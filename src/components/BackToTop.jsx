@@ -15,7 +15,7 @@ const BackToTop = () => {
   return (
     <section>
       <Container>
-        <div className="z_index_10 position-relative">
+        <div className="z_10 position-relative">
           <span
             onClick={() => onTop()}
             className={`backtotop_btn bg_topback position-fixed d-flex justify-content-center align-items-center hover_circle_animation ${

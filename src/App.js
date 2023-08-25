@@ -1,9 +1,6 @@
 import "./App.css";
 import Aos from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Ravi.css";
-import "./Sukhvinder.css";
-import "./Mayank.css";
 import ContactUs from "./components/ContactUs";
 // import Services from "./components/Services";
 // or other themes
