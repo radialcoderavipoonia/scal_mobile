@@ -16,3 +16,7 @@
 .opacity_03 {
   opacity: 0.3;
 }
+/* max -width */
+.mw_405{
+  max-width: 405px;
+}
