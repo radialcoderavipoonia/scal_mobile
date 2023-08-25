@@ -5,7 +5,10 @@ import MyNav from "./MyNav";
 export const Hero = () => {
   return (
     <>
-      <div className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3">
+      <div
+        className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3"
+        data-aos="flip-up"
+      >
         <div className=" hero_green_shadow position-absolute"></div>
         <MyNav />
         <Container className="my_container pt-4 mt-2 flex-grow-1 d-flex flex-column justify-content-center">

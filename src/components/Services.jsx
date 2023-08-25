@@ -44,7 +44,7 @@ const Services = () => {
               <SplideTrack>
                 {SliderCards.map((slide) => {
                   return (
-                    <SplideSlide className="d-flex">
+                    <SplideSlide className="d-flex" data-aos="flip-left">
                       <div key={slide.id}>
                         <Col lg={11} className="mx-lg-2 h-100">
                           <div className="Services_card">

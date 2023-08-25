@@ -17,7 +17,7 @@ const AboutUs = () => {
             We Started With A Single Goal:
           </p>
           <Row className="justify-content-lg-between flex-lg-row justify-content-center flex-column-reverse align-items-center">
-            <Col lg={6} md={9}>
+            <Col lg={6} md={9} data-aos="zoom-out-up">
               <div className="about_us">
                 <Accordion defaultActiveKey="0">
                   <div className="accordion_border my-3">
@@ -121,7 +121,7 @@ const AboutUs = () => {
                 </Accordion>
               </div>
             </Col>
-            <Col lg={6} md={9} sm={11}>
+            <Col lg={6} md={9} sm={11} data-aos="zoom-out-down">
               <div className="d-flex justify-content-center">
                 <div className="position_absolute right_-100 top-0 mw_561">
                   <img

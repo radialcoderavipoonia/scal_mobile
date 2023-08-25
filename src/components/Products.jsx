@@ -13,7 +13,13 @@ const Products = () => {
           <Row className="pt-5 mt-5">
             {ProductsCard.map((phone) => {
               return (
-                <Col lg={4} md={6} key={phone.id} className="py-4 ">
+                <Col
+                  lg={4}
+                  md={6}
+                  key={phone.id}
+                  className="py-4 "
+                  data-aos="flip-right"
+                >
                   <div className="d-flex flex-column align-items-center  pb-lg-5 py-3 bg_blur  px-4 hover_pro transition_300ms h-100 bg_pro">
                     <div className="pt-5">
                       <img src={phone.pro1} alt="pro1" />

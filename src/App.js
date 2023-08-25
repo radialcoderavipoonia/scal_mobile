@@ -1,4 +1,5 @@
 import "./App.css";
+import Aos from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Ravi.css";
 import "./Sukhvinder.css";
@@ -13,14 +14,16 @@ import { ChooseUs } from "./components/ChooseUs";
 import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
-import Services from "./components/Services"
+import Services from "./components/Services";
 import Sec1 from "./components/Sec1";
 import BackToTop from "./components/BackToTop";
 import Faqs from "./components/Faqs";
+import "aos/dist/aos.css";
 function App() {
+  Aos.init();
   return (
     <>
-      <BackToTop/>
+      <BackToTop />
       <div className="overflow-hidden bg_body">
         <div className=" position-relative line_back">
           <div className="nav_shadow position-absolute"></div>
@@ -30,7 +33,7 @@ function App() {
         <ChooseUs />
         <AboutUs />
         <Products />
-        <Services/>
+        <Services />
         <Faqs />
         <ContactUs />
         <Myfooter />
