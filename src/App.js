@@ -14,10 +14,12 @@ import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
 import Sec1 from "./components/Sec1";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
     <>
+      <BackToTop/>
       <div className="overflow-hidden bg_body">
         <div className=" position-relative line_back">
           <div className="nav_shadow position-absolute"></div>
