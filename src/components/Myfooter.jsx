@@ -8,7 +8,11 @@ import twitter from "../assets/images/webp/twitterfooter.webp";
 const Myfooter = () => {
   return (
     <>
-      <footer className="position-relative footer_bg z-3 pt-5 pb-3">
+      <footer
+        className="position-relative footer_bg z-3 pt-5 pb-3"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <Container>
           <Row className="justify-content-between">
             <Col lg={3} md={6}>

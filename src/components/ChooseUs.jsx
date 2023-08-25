@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
+import Aos from "aos";
 export const ChooseUs = () => {
+   Aos.init();
   return (
     <div className="choose_bg py-5" id="choose">
       <Container className=" my_container my-xl-5 py_38">
@@ -13,7 +14,11 @@ export const ChooseUs = () => {
         </p>
         <div className="position-relative road_line mt-5">
           {/* 1 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 hover_circle">
+          <Row
+            className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 hover_circle"
+            data-aos="fade-up-left"
+            data-aos-duration="1500"
+          >
             <Col
               md={5}
               sm={5}
@@ -45,7 +50,12 @@ export const ChooseUs = () => {
             </Col>
           </Row>
           {/* 2 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1 mt-lg-2 mt-0 flex-sm-row flex-column">
+         
+          <Row
+            className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1  mt-lg-2 mt-0 flex-sm-row flex-column"
+            data-aos="fade-up-right"
+            data-aos-duration="1500"
+          >
             <Col
               md={5}
               sm={5}
@@ -58,7 +68,8 @@ export const ChooseUs = () => {
             </Col>
             <Col md={5} sm={6} xs={10}>
               <p className=" ff_rubik clr_white fw-medium fs_3xl text-md-end text-start lh_120 mb_15">
-                It’s All About What Adds Value <span className="d-lg-block">For You</span>
+                It’s All About What Adds Value{" "}
+                <span className="d-lg-block">For You</span>
               </p>
               <p className=" opacity_07 ff_rubik clr_white fw-normal text-md-end text-start mb-0 fs_md">
                 We may not be the only tech solutions company in the industry,
@@ -79,8 +90,12 @@ export const ChooseUs = () => {
               </p>
             </Col>
           </Row>
-          {/* 3 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1  mt-lg-5 mt-4">
+       
+          <Row
+            className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 mt-lg-5 mt-4"
+            data-aos="fade-up-left"
+            data-aos-duration="1500"
+          >
             <Col md={5} sm={5} xs={10}>
               <p className="text-sm-end lh_normal_sm text-start opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text">
                 03

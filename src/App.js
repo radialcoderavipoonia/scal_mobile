@@ -1,4 +1,5 @@
 import "./App.css";
+import Aos from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Ravi.css";
 import "./Sukhvinder.css";
@@ -18,8 +19,9 @@ import Sec1 from "./components/Sec1";
 import Faqs from "./components/Faqs";
 import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
-
+import "aos/dist/aos.css";
 function App() {
+  Aos.init();
   return (
     <>
       <BackToTop />
