@@ -96,9 +96,7 @@ input {
   bottom: -15%;
   left: 10%;
 }
-.splide__pagination {
-  display: none !important;
-}
+
 /* services section  */
 .Services_card {
   background: transparent;
@@ -114,7 +112,7 @@ input {
   transition: all 0.3s ease-in-out !important;
 }
 .Services_card:hover {
-  scale: 0.9;
+  transform: translateY(-30px);
 }
 .Services_bg {
   background-image: url("./assets/images/webp/slider-bg-img.webp");
@@ -183,10 +181,10 @@ input {
 .right_-100 {
   right: -100px;
 }
-.top_14{
+.top_14 {
   top: 14%;
 }
-.left_-20{
+.left_-20 {
   left: -20%;
 }
 /* about us accordian  */
@@ -259,7 +257,7 @@ input {
   .top_1250 {
     top: 700px;
   }
-  .pb_lg_0{
+  .pb_lg_0 {
     padding-bottom: 0;
   }
 }

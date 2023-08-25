@@ -27,6 +27,9 @@ const Services = () => {
                 perMove: 1,
                 breakpoints: {
                   992: {
+                    
+                  },
+                  992: {
                     perPage: 2,
                     gap: "2rem",
                   },
@@ -37,9 +40,11 @@ const Services = () => {
                 },
               }}
             >
-              <div className="splide__arrows position-relative top_1250 top_300">
-                <button className="splide__arrow splide__arrow--prev left_arrow "></button>
-                <button className="splide__arrow splide__arrow--next right_arrow"></button>
+              <div className="d-xl-block d-none">
+                <div className="splide__arrows position-relative top_1250 top_300">
+                  <button className="splide__arrow splide__arrow--prev left_arrow "></button>
+                  <button className="splide__arrow splide__arrow--next right_arrow"></button>
+                </div>
               </div>
               <SplideTrack>
                 {SliderCards.map((slide) => {
