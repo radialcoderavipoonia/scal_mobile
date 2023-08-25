@@ -10,14 +10,14 @@ const AboutUs = () => {
     <>
       <section className="py-5">
         <div className="my_container container position-relative">
-          <h2 className="ff_rubik fs_4xl fw-medium text-white mb-0">
+          <h2 className="ff_rubik fs_4xl fw-medium text-lg-start text-center text-white mb-0">
             About Us
           </h2>
-          <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0">
+          <p className="ff_rubik fs_md fw-normal text-lg-start text-center text-white opacity_07 mb-0">
             We Started With A Single Goal:
           </p>
-          <Row className="justify-content-between align-items-center">
-            <Col xl={7} lg={6} md={9}>
+          <Row className="justify-content-lg-between flex-lg-row justify-content-center flex-column-reverse align-items-center">
+            <Col lg={6} md={9}>
               <div className="about_us">
                 <Accordion defaultActiveKey="0">
                   <div className="accordion_border my-3">
@@ -121,13 +121,16 @@ const AboutUs = () => {
                 </Accordion>
               </div>
             </Col>
-            <Col xl={5} lg={6} md={9} sm={11}>
-              <div className="position-absolute right_-100 top-0 mw_561">
-                <img
-                  src={aboutusimg}
-                  alt="about us col image"
-                  className="w-1 00" width={500}
-                />
+            <Col lg={6} md={9} sm={11}>
+              <div className="d-flex justify-content-center">
+                <div className="position_absolute right_-100 top-0 mw_561">
+                  <img
+                    src={aboutusimg}
+                    alt="about us col image"
+                    className="w-100"
+                    width={450}
+                  />
+                </div>
               </div>
             </Col>
           </Row>
