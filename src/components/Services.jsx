@@ -1,7 +1,7 @@
 import React from "react";
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import { SliderCards } from "./Helper";
-import { Col, Row } from "react-bootstrap";
+import { Col, } from "react-bootstrap";
 const Services = () => {
   return (
     <>
