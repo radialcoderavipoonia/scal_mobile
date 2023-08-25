@@ -86,10 +86,10 @@ input {
 }
 /* circle  */
 .big_circle_blue {
-  border-radius: 411px;
+  border-radius: 50%;
   opacity: 0.3;
-  background: var(--main-colors-dark-blue, #0076be);
-  filter: blur(139.87258911132812px);
+  background: #0076be;
+  filter: blur(139px);
   width: 411px;
   height: 411px;
   position: absolute;
@@ -230,10 +230,10 @@ input {
 .accordion_border:hover {
   border: 2px solid #6ca0b0;
 }
-@media (min-width:1400px) {
- .position_absolute{
-  position: absolute;
- }
+@media (min-width: 1400px) {
+  .position_absolute {
+    position: absolute;
+  }
 }
 @media (max-width: 1250px) {
   .left_arrow {

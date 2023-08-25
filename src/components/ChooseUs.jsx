@@ -58,7 +58,7 @@ export const ChooseUs = () => {
             </Col>
             <Col md={5} sm={6} xs={10}>
               <p className=" ff_rubik clr_white fw-medium fs_3xl text-md-end text-start lh_120 mb_15">
-                It’s All About What Adds Value For You
+                It’s All About What Adds Value <span className="d-lg-block">For You</span>
               </p>
               <p className=" opacity_07 ff_rubik clr_white fw-normal text-md-end text-start mb-0 fs_md">
                 We may not be the only tech solutions company in the industry,
