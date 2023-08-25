@@ -28,21 +28,21 @@ const Myfooter = () => {
                   </h5>
                   <ul className="ps-0 footer_ul pt-1">
                     <li>
-                      <a className="ws_nowrap" href="#">
+                      <a className="ws_nowrap" href="#aboutus">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <a href="#services">Services</a>
                     </li>
                     <li>
-                      <a href="#">Products</a>
+                      <a href="#products">Products</a>
                     </li>
                     <li>
                       <a href="#">Partners</a>
                     </li>
                     <li>
-                      <a href="#">FAQs</a>
+                      <a href="#faqs">FAQs</a>
                     </li>
                   </ul>
                 </div>
@@ -68,7 +68,7 @@ const Myfooter = () => {
                 Copyright © 2022 ScalMobile
               </p>
             </div>
-            <div className="pt-sm-0 pt-3">
+            <div className="pt-sm-0 pt-3 pe-xl-5 me-xxl-5">
               <img
                 className="me-3 curser_pointer icons_hover transition_300ms"
                 height={30}

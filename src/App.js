@@ -4,7 +4,7 @@ import "./Ravi.css";
 import "./Sukhvinder.css";
 import "./Mayank.css";
 import ContactUs from "./components/ContactUs";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 // or other themes
 // import '@splidejs/react-splide/css/skyblue';
 import "@splidejs/react-splide/css/sea-green";
@@ -13,15 +13,16 @@ import { ChooseUs } from "./components/ChooseUs";
 import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
+import Services from "./components/Services";
 import Sec1 from "./components/Sec1";
 import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
-
+import Faqs from "./components/Faqs";
 function App() {
   return (
     <>
       <BackToTop />
-      <Preloader/>
+      <Preloader />
       <div className="overflow-hidden bg_body">
         <div className=" position-relative line_back">
           <div className="nav_shadow position-absolute"></div>
@@ -32,6 +33,7 @@ function App() {
         <AboutUs />
         <Products />
         <Services />
+        <Faqs />
         <ContactUs />
         <Myfooter />
       </div>

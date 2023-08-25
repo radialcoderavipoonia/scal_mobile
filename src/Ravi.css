@@ -184,7 +184,12 @@ input {
 .right_-100 {
   right: -100px;
 }
-
+.top_14{
+  top: 14%;
+}
+.left_-20{
+  left: -20%;
+}
 /* about us accordian  */
 .about_us .accordion-button {
   background: black !important;
