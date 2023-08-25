@@ -15,7 +15,7 @@ export const Hero = () => {
           </p>
           <p className="ff_rubik fs_xl fw-normal text-center clr_white opacity_09 mt-1 position-relative hero_red_shadow">
             Serving customers across North America, South America, Europe,
-            <span className=" d-block">Australia, and Asia</span>
+            <span className=" d-sm-block">Australia, and Asia</span>
           </p>
           <div className="position-relative z-1">
             <img src={heromap} alt="heromap" className="w-100" />
