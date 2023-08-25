@@ -15,18 +15,18 @@ const Myfooter = () => {
               <a href="#">
                 <img src={flogo} alt="flogo" height={126} width={111} />
               </a>
-              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2">
+              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-5">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>
             </Col>
-            <Col lg={5} md={6} className="pt-4">
+            <Col lg={5} md={6} className="pt-3">
               <div className="d-flex">
                 <div className="pe-sm-5 pe-4">
-                  <h5 className="color_white ff_rubik fw-normal fs_xl pb-2">
+                  <h5 className="color_white ff_rubik fw-normal fs_xl pb-2 mb-0">
                     Links
                   </h5>
-                  <ul className="ps-0 footer_ul pt-1">
+                  <ul className="ps-0 footer_ul pt-1 mb-0">
                     <li>
                       <a className="ws_nowrap" href="#aboutus">
                         About Us
@@ -47,10 +47,10 @@ const Myfooter = () => {
                   </ul>
                 </div>
                 <div className="ps-sm-5 ps-4">
-                  <h5 className="color_white ff_rubik fw-normal fs_xl pb-2">
+                  <h5 className="color_white ff_rubik fw-normal fs_xl pb-2 mb-0">
                     Legal
                   </h5>
-                  <p className="ff_rubik fs_md fw-normal color_light mw_246 mb-0">
+                  <p className="ff_rubik fs_md fw-normal color_light mw_246 pt-1 mb-0">
                     Vendor Code of Conduct Data Sanitization Policy Downstream
                     Recycling Policy Environmental and Social Impact QEH&S
                     Policy Universal Waste Policy
@@ -62,7 +62,7 @@ const Myfooter = () => {
         </Container>
         <div className="footerline"></div>
         <Container>
-          <div className="d-sm-flex justify-content-between align-items-center pt-3">
+          <div className="d-sm-flex justify-content-between align-items-center py-4">
             <div>
               <p className="ff_rubik color_light fs_md mb-0">
                 Copyright © 2022 ScalMobile

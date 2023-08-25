@@ -8,19 +8,19 @@ const AboutUs = () => {
   };
   return (
     <>
-      <section className="py-5" id="aboutus">
-        <div className="my_container container position-relative about_green">
+      <section className="py-lg-5 my-xl-5" id="aboutus">
+        <div className="my_container container position-relative about_green mt-5 pt_36 pb-4">
           <h2 className="ff_rubik fs_4xl fw-medium text-lg-start text-center text-white mb-0">
             About Us
           </h2>
-          <p className="ff_rubik fs_md fw-normal text-lg-start text-center text-white opacity_07 mb-0">
+          <p className="ff_rubik fs_md fw-normal text-lg-start text-center text-white opacity_07 mb-2">
             We Started With A Single Goal:
           </p>
           <Row className="justify-content-lg-between flex-lg-row justify-content-center flex-column-reverse align-items-center">
             <Col lg={6} md={9}>
-              <div className="about_us">
+              <div className="about_us mb-2">
                 <Accordion defaultActiveKey="0">
-                  <div className="accordion_border my-3">
+                  <div className="accordion_border mt-4 mb-1">
                     <Accordion.Item eventKey="0" className="position-relative">
                       <Accordion.Header>
                         <div className="d-flex gap-2 ">
@@ -53,7 +53,7 @@ const AboutUs = () => {
                       </Accordion.Body>
                     </Accordion.Item>
                   </div>
-                  <div className="accordion_border my-3">
+                  <div className="accordion_border mt-2 mb-1">
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>
                         <div className="d-flex gap-2 ">

@@ -3,12 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const ChooseUs = () => {
   return (
-    <div className="choose_bg" id="choose">
-      <Container className=" my_container pb-5">
-        <p className=" ff_rubik fw-medium text-center clr_white fs_4xl mb-0">
+    <div className="choose_bg py-5" id="choose">
+      <Container className=" my_container my-xl-5 py_38">
+        <p className="ff_rubik fw-medium text-center clr_white fs_4xl mb-0">
           Why Choose Us?
         </p>
-        <p className=" clr_white ff_rubik fw-normal fs_md opacity_07 text-center">
+        <p className="pb-5 clr_white ff_rubik fw-normal fs_md opacity_07 text-center mb-4">
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="position-relative road_line mt-5">
@@ -45,7 +45,7 @@ export const ChooseUs = () => {
             </Col>
           </Row>
           {/* 2 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1 mt-5 flex-sm-row flex-column">
+          <Row className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1 mt-lg-2 mt-0 flex-sm-row flex-column">
             <Col
               md={5}
               sm={5}
@@ -80,7 +80,7 @@ export const ChooseUs = () => {
             </Col>
           </Row>
           {/* 3 */}
-          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 mt-5">
+          <Row className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1  mt-lg-5 mt-4">
             <Col md={5} sm={5} xs={10}>
               <p className="text-sm-end lh_normal_sm text-start opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text">
                 03

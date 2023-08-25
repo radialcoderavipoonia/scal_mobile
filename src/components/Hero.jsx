@@ -5,7 +5,7 @@ import MyNav from "./MyNav";
 export const Hero = () => {
   return (
     <>
-      <div className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3">
+      <div className="mb-3 d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3">
         <div className=" hero_green_shadow position-absolute"></div>
         <MyNav />
         <Container className="my_container pt-4 mt-2 flex-grow-1 d-flex flex-column justify-content-center">
@@ -13,7 +13,7 @@ export const Hero = () => {
             Redefining the Smartphone Re-
             <span className=" d-block">Commerce Industry Since 2010</span>
           </p>
-          <p className="ff_rubik fs_xl fw-normal text-center clr_white opacity_09 mt-1 position-relative hero_red_shadow">
+          <p className="ff_rubik fs_xl fw-normal text-center clr_white opacity_09 mt-1 mb-5 position-relative hero_red_shadow">
             Serving customers across North America, South America, Europe,
             <span className=" d-sm-block">Australia, and Asia</span>
           </p>

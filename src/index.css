@@ -23,9 +23,27 @@
 .mw_246 {
   max-width: 246px;
 }
-.mw_724{
+.mw_724 {
   max-width: 724px;
 }
 /* padding */
-
+.pt_36 {
+  padding-top: 36px;
+}
+.py_38 {
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.pb_20{
+  padding-bottom: 20px;
+}
+.pb_31{
+  padding-bottom: 31px;
+}
 /* margin */
+.mb_15 {
+  margin-bottom: 15px;
+}
+.mt_34 {
+  margin-top: 34px;
+}

@@ -6,11 +6,11 @@ import sec3 from "../assets/images/webp/sec3.webp";
 const Sec1 = () => {
   return (
     <>
-      <section className="position-relative py-5 z-3 overflow_x_hidden">
+      <section className="position-relative py-lg-5 py-lg-4 pt-4 mt-xl-4 z-3 overflow_x_hidden">
         <div className="blue_ellipse"></div>
         <div className="blue_ellipse2"></div>
         <div className="green_ellipse"></div>
-        <Container className="pb-5">
+        <Container className="pb-5 mt-2">
           <Row className="align-items-center justify-content-between">
             <Col lg={6}>
               <div>
@@ -52,7 +52,7 @@ const Sec1 = () => {
               </div>
             </Col>
           </Row>
-          <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pt-lg-0">
+          <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pb-4 pt-lg-0">
             <Col lg={5} md={9}>
               <div>
                 <img className="mh_341px w-100 " src={sec3} alt="sec3" />
@@ -71,8 +71,8 @@ const Sec1 = () => {
               </div>
             </Col>
           </Row>
-          <div className="d-flex align-items-center justify-content-center w-100 py-3 mt-5 mb_70px pt-5 position-relative z-1 ">
-            <div className="mw_881px  py-4 secpera px-lg-5 bg_lg_blue">
+          <div className="d-flex align-items-center justify-content-center w-100  mt-5 mb-xl-5 pt-3 position-relative z-1 ">
+            <div className="mw_881 mb-5 py-4 secpera px-lg-5 bg_lg_blue">
               <div className="position-relative">
                 <div className="peracenter_shadow"></div>
                 <p className="text-center ff_rubik fw-medium fs_lg color_white py-2 px-sm-5 mb-0">

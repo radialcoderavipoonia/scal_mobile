@@ -5,9 +5,9 @@ import { Col, } from "react-bootstrap";
 const Services = () => {
   return (
     <>
-      <section className="Services_bg" id="services">
-        <div className="container my_container">
-          <h2 className="ff_rubik fw-medium fs_4xl text-center mb-0 text-white">
+      <section className="Services_bg py-5" id="services">
+        <div className="container my_container py-5 my-xl-4">
+          <h2 className="ff_rubik fw-medium fs_4xl text-center mb-0 text-white pt-1">
             Services
           </h2>
           <div className="d-flex justify-content-center align-items-center">
@@ -46,7 +46,7 @@ const Services = () => {
                   return (
                     <SplideSlide className="d-flex">
                       <div key={slide.id}>
-                        <Col lg={11} className="mx-lg-2 h-100">
+                        <Col lg={11} className="mx-lg-2 h-100 pb-1">
                           <div className="Services_card">
                             <div className="text-center">
                               <img

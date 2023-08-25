@@ -5,9 +5,9 @@ import Accordion from "react-bootstrap/Accordion";
 const Faqs = () => {
   return (
     <>
-      <section className="py-5 position-relative" id="faqs">
+      <section className="py-lg-5 pb-4 my-xl-5 position-relative" id="faqs">
         <div className="blue_ellipse3"></div>
-        <div className="my_container container position-relative ">
+        <div className="my_container container position-relative pt-lg-5 pb_20 mt_34">
           <Row className="justify-content-between align-items-center">
             <Col xl={5} lg={6}>
               <div className="position_absolute top_14 left_-20 mw_724 mx-auto">

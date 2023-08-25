@@ -121,7 +121,6 @@ input {
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 144px 0px;
 }
 .Services_icons {
   margin: 0 auto !important;
@@ -259,6 +258,9 @@ input {
 @media (max-width: 992px) {
   .top_1250 {
     top: 700px;
+  }
+  .pb_lg_0{
+    padding-bottom: 0;
   }
 }
 @media (max-width: 768px) {

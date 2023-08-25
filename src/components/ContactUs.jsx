@@ -5,7 +5,7 @@ import form_col_img from "../assets/images/webp/form_col_img.webp";
 const ContactUs = () => {
   return (
     <>
-      <div className="my_container container py-5 position-relative green_choose">
+      <div className="my_container container py-5 mb-xl-5 position-relative green_choose">
         <div className="d-flex justify-content-center align-items-center text-center mb-3 position-relative z-1">
           <div className="pb-4">
             <h2 className="text-white mb-0 ff_rubik fw-medium fs_4xl">
@@ -35,7 +35,7 @@ const ContactUs = () => {
               <p className="ff_rubik fw-bold fs_md text-white opacity_07 pt-1 mb-0">
                 So, are you ready to earn more for less?
               </p>
-              <p className="ff_rubik fw-normal fs_md text-white opacity_07 pt-1 mb-0">
+              <p className="ff_rubik fw-normal fs_md text-white opacity_07 pt-1 mb-2">
                 Fill out the contact form below, and we will take care of the
                 rest.
               </p>
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="pt-5">
-          <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
+          <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row mb-5 pb_31 pb_lg_0">
             <Col xl={5} lg={6}>
               <div className="d-flex justify-content-between align-items-center pt-lg-0 pt-5">
                 <div className="w-100 pe-2">
