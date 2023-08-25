@@ -15,7 +15,7 @@ const Faqs = () => {
             </Col>
             <Col lg={6}>
               <div className="d-flex flex-column justify-content-start">
-                <h4 className="ff_rubik fw-medium color_white fs_4 mb-0xl">FAQs</h4>
+                <h4 className="ff_rubik fw-medium color_white fs_4 mb-0 fs_4xl">FAQs</h4>
                 <Accordion defaultActivekey="0" className="pt-3">
                   <Accordion.Item
                     className="border_top_bottom px-2"
