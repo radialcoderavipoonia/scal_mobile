@@ -96,9 +96,7 @@ input {
   bottom: -15%;
   left: 10%;
 }
-.splide__pagination {
-  display: none !important;
-}
+
 /* services section  */
 .Services_card {
   background: transparent;

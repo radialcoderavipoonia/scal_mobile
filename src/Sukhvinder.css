@@ -270,6 +270,17 @@
     box-shadow: 0 0 0 0.7em transparent;
   }
 }
+.splide__pagination {
+  bottom: -10% !important;
+}
+.splide__pagination__page.is-active {
+  /* background: #000 !important; */
+  background: linear-gradient(
+    136.39deg,
+    #0076be 3.65%,
+    #48bf91 89.63%
+  ) !important;
+}
 /* preloader  */
 .typed {
   overflow: hidden;
@@ -287,6 +298,11 @@
   }
   to {
     width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .splide__pagination {
+    display: none !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1920px) {
