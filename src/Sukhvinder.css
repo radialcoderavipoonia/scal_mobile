@@ -188,6 +188,25 @@
 .trlateY_-20 {
   transform: translateY(-20px);
 }
+.bg_topback {
+  background: linear-gradient(
+    136.39deg,
+    #0076be 3.65%,
+    #48bf91 89.63%
+  ) !important;
+  border: 1px solid #ffff;
+}
+.backtotop_btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  cursor: pointer;
+}
 .road_circle1:hover::after {
   -webkit-box-shadow: -2px 2px 29px rgb(252, 252, 252);
   box-shadow: -2px 2px 29px rgb(252, 252, 252);
@@ -197,6 +216,18 @@
   animation: roadmap-track-circle 1s;
   -webkit-box-shadow: 0 0 0 0.7em transparent;
   box-shadow: 0 0 0 0.7em transparent;
+}
+.hover_circle_animation {
+  -webkit-box-shadow: -2px 2px 29px rgb(252, 252, 252);
+  box-shadow: -2px 2px 29px rgb(252, 252, 252);
+  z-index: 2;
+  border-radius: 50%;
+  animation: roadmap-track-circle2 3s infinite;
+  -webkit-box-shadow: 0 0 0 0.7em transparent;
+  box-shadow: 0 0 0 0.7em transparent;
+}
+.z_index_10 {
+  z-index: 10;
 }
 .line_100::after {
   height: 100%;
@@ -215,6 +246,35 @@
   0% {
     -webkit-box-shadow: 0 0 0 0 #fff;
     box-shadow: 0 0 0 0 #fff;
+  }
+}
+@-webkit-keyframes roadmap-track-circle2 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0.7em transparent;
+    box-shadow: 0 0 0 0.7em transparent;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 0 #fff;
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0.7em transparent;
+    box-shadow: 0 0 0 0.7em transparent;
+  }
+}
+
+@keyframes roadmap-track-circle2 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0.7em transparent;
+    box-shadow: 0 0 0 0.7em transparent;
+  }
+  50% {
+    -webkit-box-shadow: 0 0 0 0 #fff;
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0.7em transparent;
+    box-shadow: 0 0 0 0.7em transparent;
   }
 }
 @media (min-width: 1200px) and (max-width: 1920px) {
@@ -257,7 +317,10 @@
     z-index: 20;
     -webkit-transition: 0.6s all linear !important;
   }
-
+  .backtotop_btn {
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+  }
   .nav_show.showw {
     opacity: 10;
     min-height: 100vh;
