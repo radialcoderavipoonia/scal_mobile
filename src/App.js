@@ -6,6 +6,8 @@ import "./Mayank.css";
 import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
 import Sec1 from "./components/Sec1";
+import AboutUs from "./components/AboutUs";
+import Faqs from "./components/Faqs";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Sec1/>
       <Products />
       <Myfooter />
+      <Faqs/>
     </>
   );
 }
