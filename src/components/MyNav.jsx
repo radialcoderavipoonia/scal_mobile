@@ -1,7 +1,6 @@
 import React from "react";
 import { ImCross } from "react-icons/im";
 import nav_logo from "../assets/images/png/page_logo.png";
-import nav_shadow_img from "../assets/images/webp/nav_shadow.webp";
 import { Container } from "react-bootstrap";
 const MyNav = () => {
   const [First, setFirst] = React.useState(true);
@@ -16,9 +15,6 @@ const MyNav = () => {
   return (
     <>
       <div className="flex-grow-0 overflow-hidden nav_bottom_border position-relative">
-        <div className="nav_shadow position-absolute">
-          <img className="w-100" src={nav_shadow_img} alt="nav_shadow" />
-        </div>
         <Container className="my_container">
           {/* btn */}
           <div className="d-flex justify-content-between d-md-none align-items-center py-3">
@@ -68,16 +64,16 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="ff_rubik text-white fs_md fw-medium me-md-4 position-relative hover_line"
+                            className="ff_rubik opacity_07 clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
                           >
-                            HOME
+                            Home
                           </a>
                         </li>
                         <li>
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik text-white fs_mdfw-medium me-md-4 position-relative hover_line"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
                           >
                             About Us
                           </a>
@@ -86,14 +82,16 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik text-white fs_mdfw-medium position-relative hover_line"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-medium position-relative hover_line hover_opacity_1"
                           >
                             Why Choose Us
                           </a>
                         </li>
                       </ul>
                     </div>
-                    <button className="nav_btn d-md-block d-none">Contact Us</button>
+                    <button className="nav_btn d-md-block d-none">
+                      Contact Us
+                    </button>
                   </div>
                 </div>
               </div>
