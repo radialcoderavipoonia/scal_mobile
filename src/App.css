@@ -21,7 +21,7 @@
   --fs-5xl: 48px;
   --fs-7xl: 180px;
   --clr-blue: #95d8eb;
-  --clr-blue37: #378EBB;
+  --clr-blue37: #378ebb;
   --clr-white: #fff;
   --bg-body: #000;
 }
@@ -67,6 +67,43 @@
 .color_white {
   color: White;
 }
-.color_light{
+.color_light {
   color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-3xl: 27px;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-md: 14px;
+    --fs-5xl: 36px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-lg: 16px;
+    --fs-xl: 18px;
+    --fs-3xl: 25px;
+    --fs-7xl: 150px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-xl: 16px;
+    --fs-5xl: 30px;
+    --fs-7xl: 100px;
+  }
+}
+@media (max-width: 480px) {
+  :root {
+    --fs-xl: 14px;
+    --fs-md:14px;
+    --fs-lg: 13px;
+    --fs-4xl:30px;
+    --fs-5xl: 19px;
+    --fs-3xl: 22px;
+    --fs-7xl: 80px;
+  }
 }

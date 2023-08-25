@@ -44,7 +44,7 @@ const ContactUs = () => {
         </div>
         <div className="pt-5">
           <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
-            <Col lg={5}>
+            <Col xl={5} lg={6}>
               <div className="d-flex justify-content-between align-items-center pt-lg-0 pt-5">
                 <div className="w-100 pe-2">
                   <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0 pb-2">
@@ -161,7 +161,7 @@ const ContactUs = () => {
                 </button>
               </div>
             </Col>
-            <Col lg={5}>
+            <Col xl={5} lg={5} sm={8}>
               <div className="position-relative">
                 <img
                   src={form_col_img}

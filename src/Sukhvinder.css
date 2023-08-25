@@ -16,7 +16,6 @@
   background-image: url(../src/assets/images/svg/hero_line_back.svg);
   height: 804px;
   width: 904px;
-  background-repeat: no-repeat;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
