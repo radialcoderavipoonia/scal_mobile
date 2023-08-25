@@ -15,11 +15,13 @@ import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
 import Sec1 from "./components/Sec1";
 import BackToTop from "./components/BackToTop";
+import Preloader from "./components/Preloader";
 
 function App() {
   return (
     <>
-      <BackToTop/>
+      <BackToTop />
+      <Preloader/>
       <div className="overflow-hidden bg_body">
         <div className=" position-relative line_back">
           <div className="nav_shadow position-absolute"></div>
