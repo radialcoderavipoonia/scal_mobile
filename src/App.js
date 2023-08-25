@@ -15,9 +15,10 @@ import Products from "./components/Products";
 import Myfooter from "./components/Myfooter";
 import Services from "./components/Services";
 import Sec1 from "./components/Sec1";
+import Faqs from "./components/Faqs";
 import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
-import Faqs from "./components/Faqs";
+
 function App() {
   return (
     <>
