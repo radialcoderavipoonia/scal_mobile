@@ -1,9 +1,6 @@
 import "./App.css";
 import Aos from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Ravi.css";
-import "./Sukhvinder.css";
-import "./Mayank.css";
 import ContactUs from "./components/ContactUs";
 import "@splidejs/react-splide/css/sea-green";
 import { Hero } from "./components/Hero";
@@ -18,9 +15,10 @@ import BackToTop from "./components/BackToTop";
 import Preloader from "./components/Preloader";
 import "aos/dist/aos.css";
 function App() {
-  Aos.init(
-  
-  );
+  Aos.init({
+    once: true,
+    disable: "mobile",
+  });
   return (
     <>
       <BackToTop />
