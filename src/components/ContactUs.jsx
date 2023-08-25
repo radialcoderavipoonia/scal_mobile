@@ -5,8 +5,8 @@ import form_col_img from "../assets/images/webp/form_col_img.webp";
 const ContactUs = () => {
   return (
     <>
-      <div className="my_container container py-5">
-        <div className="d-flex justify-content-center align-items-center text-center mb-3">
+      <div className="my_container container py-5 position-relative green_choose">
+        <div className="d-flex justify-content-center align-items-center text-center mb-3 position-relative z-1">
           <div className="pb-4">
             <h2 className="text-white mb-0 ff_rubik fw-medium fs_4xl">
               Contact Us

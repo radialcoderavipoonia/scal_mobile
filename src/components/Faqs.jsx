@@ -8,21 +8,21 @@ const Faqs = () => {
       <section className="py-5">
         <Container>
           <Row className="justify-content-between align-items-center">
-            <Col lg={5} className="position-relative">
-              <div className="">
-                <img className="w-100" src={faqimg} alt="faqimg" />
+            <Col lg={6} className="position-relative">
+              <div className="faqimg">
+                <img  src={faqimg} alt="faqimg" />
               </div>
             </Col>
             <Col lg={6}>
               <div className="d-flex flex-column justify-content-start">
-                <h4 className="ff_rubik fw-medium color_white fs_4xl">FAQs</h4>
+                <h4 className="ff_rubik fw-medium color_white fs_4 mb-0xl">FAQs</h4>
                 <Accordion defaultActivekey="0" className="pt-3">
                   <Accordion.Item
                     className="border_top_bottom px-2"
                     evenKey="0"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q1. What is SCal Mobile?
                       </h4>
                     </Accordion.Header>
@@ -41,7 +41,7 @@ const Faqs = () => {
                     className="border_top_bottom px-2"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q2. How long has SCal Mobile been in business?
                       </h4>
                     </Accordion.Header>
@@ -59,7 +59,7 @@ const Faqs = () => {
                     eventKey="2"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q3. Where does SCal Mobile operate?
                       </h4>
                     </Accordion.Header>
@@ -77,7 +77,7 @@ const Faqs = () => {
                     eventKey="3"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q4. What products does SCal Mobile offer?
                       </h4>
                     </Accordion.Header>
@@ -95,7 +95,7 @@ const Faqs = () => {
                     eventKey="4"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q5. How do I place an order with SCal Mobile?
                       </h4>
                     </Accordion.Header>
@@ -113,7 +113,7 @@ const Faqs = () => {
                     eventKey="5"
                   >
                     <Accordion.Header>
-                      <h4 className="ff_rubik fw-normal fs_xl text-white">
+                      <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
                         Q6. How often is inventory updated?
                       </h4>
                     </Accordion.Header>

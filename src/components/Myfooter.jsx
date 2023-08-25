@@ -1,10 +1,10 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import flogo from "../assets/images/webp/footer_logo.webp";
-import fb from "../assets/images/webp/Frame 48.webp";
-import insta from "../assets/images/webp/Frame 49.webp";
-import linked from "../assets/images/webp/Frame 50.webp";
-import twitter from "../assets/images/webp/Frame 51.webp";
+import flogo from "../assets/images/png/flogo.png";
+import fb from "../assets/images/png/fbfooter.png";
+import insta from "../assets/images/png/instafooter.png";
+import linked from "../assets/images/png/linkinfooter.png";
+import twitter from "../assets/images/png/twitterfooter.png";
 const Myfooter = () => {
   return (
     <>
@@ -12,15 +12,17 @@ const Myfooter = () => {
         <Container>
           <Row className="justify-content-between">
             <Col lg={3} md={6}>
-              <img src={flogo} alt="flogo" />
+              <a href="#">
+                <img src={flogo} alt="flogo" height={126} width={111} />
+              </a>
               <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>
             </Col>
             <Col lg={5} md={6} className="pt-4">
-              <div className="d-flex justify-content-between">
-                <div className="pe-5">
+              <div className="d-flex">
+                <div className="pe-sm-5 pe-4">
                   <h5 className="color_white ff_rubik fw-normal fs_xl pb-2">
                     Links
                   </h5>
@@ -44,11 +46,11 @@ const Myfooter = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="ps-xl-5">
+                <div className="ps-sm-5 ps-4">
                   <h5 className="color_white ff_rubik fw-normal fs_xl pb-2">
                     Legal
                   </h5>
-                  <p className="ff_rubik fs_md fw-normal color_light">
+                  <p className="ff_rubik fs_md fw-normal color_light mw_246 mb-0">
                     Vendor Code of Conduct Data Sanitization Policy Downstream
                     Recycling Policy Environmental and Social Impact QEH&S
                     Policy Universal Waste Policy
@@ -67,10 +69,34 @@ const Myfooter = () => {
               </p>
             </div>
             <div className="pt-sm-0 pt-3">
-              <img className="pe-3 curser_pointer icons_hover transition_300ms" src={insta} alt="insta" />
-              <img className="pe-3 curser_pointer icons_hover transition_300ms" src={linked} alt="linked" />
-              <img className="pe-3 curser_pointer icons_hover transition_300ms" src={twitter} alt="twitter" />
-              <img className="pe-3 curser_pointer icons_hover transition_300ms" src={fb} alt="facebook" />
+              <img
+                className="me-3 curser_pointer icons_hover transition_300ms"
+                height={30}
+                width={30}
+                src={fb}
+                alt="facebook"
+              />
+              <img
+                className="me-3 curser_pointer icons_hover transition_300ms"
+                height={30}
+                width={30}
+                src={insta}
+                alt="insta"
+              />
+              <img
+                className="me-3 curser_pointer icons_hover transition_300ms"
+                height={30}
+                width={30}
+                src={linked}
+                alt="linked"
+              />
+              <img
+                className="me-3 curser_pointer icons_hover transition_300ms"
+                height={30}
+                width={30}
+                src={twitter}
+                alt="twitter"
+              />
             </div>
           </div>
         </Container>

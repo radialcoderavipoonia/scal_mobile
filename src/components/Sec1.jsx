@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import sec1 from "../assets/images/webp/sec1.webp";
-import sec2 from "../assets/images/webp/sec2.webp";
-import sec3 from "../assets/images/webp/sec3.webp";
+import sec1 from "../assets/images/png/sec1.png";
+import sec2 from "../assets/images/png/sec2.png";
+import sec3 from "../assets/images/png/sec3.png";
 const Sec1 = () => {
   return (
     <>
@@ -20,9 +20,10 @@ const Sec1 = () => {
             <Col lg={5} className="pt-lg-0 pt-4">
               <div className="d-flex align-items-start">
                 <div>
-                  <p className="color_white90 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
-                    SCal Mobile marked its presence in 2010. Since then, we have
-                    been working tirelessly around the idea of providing
+                  <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
+                    SCal Mobile marked its presence in
+                    <span className="clr_blue37"> 2010</span>. Since then, we
+                    have been working tirelessly around the idea of providing
                     customers with premium devices and services that change the
                     norm in the smartphone re-commerce industry, moving into a
                     new, more efficient era.
@@ -35,7 +36,7 @@ const Sec1 = () => {
             <Col lg={5} className="pt-lg-0 pt-4">
               <div className="d-flex align-items-start">
                 <div>
-                  <p className="color_white90 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
+                  <p className="color_white90 ms-4 ms-sm-0 ff_rubik fw-normal mw_405 fs_xl mb-0  greenlinepera position-relative">
                     What started as a small US-based business has now evolved
                     into an international industry leader, operating in North
                     and South America, Asia, Europe, and Australia. Despite our
@@ -60,7 +61,7 @@ const Sec1 = () => {
             <Col lg={5} className="pt-lg-0 pt-4">
               <div className="d-flex align-items-start">
                 <div className="pt-4 pt-lg-0">
-                  <p className="color_white90 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
+                  <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
                     From retailers, carriers, distributors, and repair shops to
                     individual consumers, we cater to diverse needs, following a
                     client-centric approach that puts your specific requirements

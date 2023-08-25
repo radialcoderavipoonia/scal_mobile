@@ -21,6 +21,7 @@
   --fs-5xl: 48px;
   --fs-7xl: 180px;
   --clr-blue: #95d8eb;
+  --clr-blue37: #378EBB;
   --clr-white: #fff;
   --bg-body: #000;
 }
@@ -52,6 +53,9 @@
 /* colors  */
 .color_blue {
   color: var(--clr-blue);
+}
+.clr_blue37 {
+  color: var(--clr-blue37);
 }
 .clr_white {
   color: var(--clr-white);

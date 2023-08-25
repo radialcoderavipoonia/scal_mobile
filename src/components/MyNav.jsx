@@ -19,13 +19,15 @@ const MyNav = () => {
           {/* btn */}
           <div className="d-flex justify-content-between d-md-none align-items-center py-3">
             <span>
-              <img
-                src={nav_logo}
-                alt="nav_logo"
-                width={72}
-                height={81}
-                className="z_10 position-relative"
-              />
+              <a href="#">
+                <img
+                  src={nav_logo}
+                  alt="nav_logo"
+                  width={72}
+                  height={81}
+                  className="z_10 position-relative"
+                />
+              </a>
             </span>
             <button className="nav_btn">Contact Us</button>
             <h2
@@ -50,12 +52,14 @@ const MyNav = () => {
                 <div className="nav_container">
                   <div className="d-flex align-items-center flex-md-row flex-column justify-content-center justify-content-md-between  vh_100_md">
                     <span className="d-md-block d-none me-3 z_10">
-                      <img
-                        src={nav_logo}
-                        alt="nav_logo"
-                        width={72}
-                        height={81}
-                      />
+                      <a href="#">
+                        <img
+                          src={nav_logo}
+                          alt="nav_logo"
+                          width={72}
+                          height={81}
+                        />
+                      </a>
                     </span>
                     {/* option */}
                     <div className="d-flex align-items-center">
@@ -64,7 +68,7 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="ff_rubik opacity_07 clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
+                            className="ff_rubik opacity_07 clr_white fs_md fw-normal me-md-4 position-relative hover_line hover_opacity_1"
                           >
                             Home
                           </a>
@@ -73,7 +77,7 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik clr_white fs_md fw-medium me-md-4 position-relative hover_line hover_opacity_1"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-normal me-md-4 position-relative hover_line hover_opacity_1"
                           >
                             About Us
                           </a>
@@ -82,7 +86,7 @@ const MyNav = () => {
                           <a
                             href="#"
                             onClick={clickshow}
-                            className="opacity_07 ff_rubik clr_white fs_md fw-medium position-relative hover_line hover_opacity_1"
+                            className="opacity_07 ff_rubik clr_white fs_md fw-normal position-relative hover_line hover_opacity_1"
                           >
                             Why Choose Us
                           </a>

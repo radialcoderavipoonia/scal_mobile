@@ -179,7 +179,7 @@
 /* ==================================================================footer================================================================ */
 .footer_bg {
   background-image: url(./assets/images/webp/footer_bg.webp);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .footer_ul li {
@@ -213,6 +213,8 @@
 }
 .accordion-item .accordion-button {
   background-color: transparent !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .accordion-body {
   background-color: transparent !important;
@@ -257,7 +259,12 @@ div.accordion-body {
 .mw_473px {
   max-width: 473px;
 }
-
+.faqimg{
+  position: relative;
+  top: 0% !important;
+  left: -30%;
+ 
+}
 /* ==========================================Media Quries============================================================= */
 @media (max-width: 992px) {
   .mb_70px {
@@ -297,8 +304,11 @@ div.accordion-body {
     width: 184px;
   }
   .sec_shadow {
-    height: 184px;
-    width: 184px;
-    bottom: -2%;
-  }
+  height: 184px;
+  width: 184px;
+  bottom: -2%;
+}
+.footer_bg{
+  background-size: cover;
+}
 }
