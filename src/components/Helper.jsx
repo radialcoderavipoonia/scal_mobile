@@ -1,6 +1,9 @@
 import slideimg1 from "../assets/images/png/slideimg1.png"
 import slideimg2 from "../assets/images/png/slideimg2.png"
 import slideimg3 from "../assets/images/png/slideimg3.png"
+import procardimg1 from "../assets/images/webp/product_1.webp";
+import procardimg2 from "../assets/images/webp/product_2.webp";
+import procardimg3 from "../assets/images/webp/product_3.webp";
 export const SliderCards = [
   {
     id: 1,
@@ -49,5 +52,31 @@ export const SliderCards = [
     heading: "Advance Inventory Access",
     bigpara:
       "Worried the model you’re interested in will be sold before it’s added to our available inventory? Looking to reserve a specific product not yet in our ready-to-ship offerings? With our Production Program, gain advance notice to inventory that will be ready to ship within one to three days.",
+  },
+];
+export const ProductsCard = [
+  {
+    id: 1,
+    pro1: procardimg1,
+    italictext: "iPhones",
+    heading: "High-End Smartphones Without The High Price Tag",
+    bigpara:
+      "SCal Mobile houses premium quality iPhones that are available at ultra-competitive prices. From the latest models to update your collection to old phones in perfect condition, at SCal Mobile, you will find everything you need in numerous colors and storage capacities.",
+  },
+  {
+    id: 2,
+    pro1: procardimg2,
+    italictext: "Gradings",
+    heading: "Products That Live Up To All Expectations",
+    bigpara:
+      "We wish to free clients from the fear of buying poor-quality smartphones from the secondary mobile phone industry. That is why all our products are thoroughly checked. They go through a 60-point techinical inspection process to identify cosmetic or functional problems. We also follow a strict grading system that includes A, AB, and fallout grades to ensure your phone will look and work perfectly. ",
+  },
+  {
+    id: 3,
+    pro1: procardimg3,
+    italictext: "Warranty",
+    heading: "Get Your Next Phone With Serenity & Confidence",
+    bigpara:
+      "If you face an issue with your order, we offer a standard 45-day warranty that includes any device defect to give you that much-needed confidence and calm during the purchase.  ",
   },
 ];

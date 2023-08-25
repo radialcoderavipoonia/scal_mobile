@@ -63,6 +63,6 @@
 .color_white {
   color: White;
 }
-.transition_30ms {
-  transition: 300ms;
+.color_light{
+  color: rgba(255, 255, 255, 0.7);
 }
