@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, Col, Row } from "react-bootstrap";
-import aboutusimg from "../assets/images/png/aboutus_col_img.png";
+import aboutusimg from "../assets/images/webp/aboutus_col_img.webp";
 
 const AboutUs = () => {
   const changeborder = {

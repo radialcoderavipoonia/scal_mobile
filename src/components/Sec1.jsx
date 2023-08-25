@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import sec1 from "../assets/images/png/sec1.png";
-import sec2 from "../assets/images/png/sec2.png";
-import sec3 from "../assets/images/png/sec3.png";
+import sec1 from "../assets/images/webp/sec1.webp";
+import sec2 from "../assets/images/webp/sec2.webp";
+import sec3 from "../assets/images/webp/sec3.webp";
 const Sec1 = () => {
   return (
     <>

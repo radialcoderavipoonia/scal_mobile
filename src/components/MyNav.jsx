@@ -1,6 +1,6 @@
 import React from "react";
 import { ImCross } from "react-icons/im";
-import nav_logo from "../assets/images/png/page_logo.png";
+import nav_logo from "../assets/images/webp/page_logo.webp";
 import { Container } from "react-bootstrap";
 const MyNav = () => {
   const [First, setFirst] = React.useState(true);
