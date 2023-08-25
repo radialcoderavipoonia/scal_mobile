@@ -10,18 +10,18 @@ const Products = () => {
           Products
         </h2>
         <Container className="my_container pb-xl-5">
-          <Row className="pt-lg-5 pt-3 mt-5">
+          <Row className="pt-lg-5 pt-3 mt-5 justify-content-center">
             {ProductsCard.map((phone) => {
               return (
                 <Col
                   lg={4}
                   md={6}
                   key={phone.id}
-                  className="py-4 pt-2"
+                  className="py-4 pt-3"
                   data-aos="flip-right"
                   data-aos-duration="3000"
                 >
-                  <div className="d-flex flex-column align-items-center  pb-lg-5 py-3 bg_blur  px-4 hover_pro transition_300ms h-100 bg_pro">
+                  <div className="d-flex flex-column align-items-center mx-md-0 mx-sm-4 pb-lg-5 py-3 bg_blur  px-4 hover_pro transition_300ms h-100 bg_pro">
                     <div className="pt-5">
                       <img src={phone.pro1} alt="pro1" />
                     </div>
