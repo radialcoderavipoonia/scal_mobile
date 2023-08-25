@@ -21,6 +21,15 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.loading {
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/images/webp/footer_bg.webp) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
 .nav_bottom_border {
   border-bottom: 1px solid #393535;
 }
@@ -276,6 +285,21 @@
     -webkit-box-shadow: 0 0 0 0.7em transparent;
     box-shadow: 0 0 0 0.7em transparent;
   }
+}
+/* preloader  */
+.typed {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 @media (min-width: 1200px) and (max-width: 1920px) {
   .min_vh_100_custom {
