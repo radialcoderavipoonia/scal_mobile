@@ -17,8 +17,8 @@ const AboutUs = () => {
             We Started With A Single Goal:
           </p>
           <Row className="justify-content-lg-between flex-lg-row justify-content-center flex-column-reverse align-items-center">
-            <Col lg={6} md={9}>
-              <div className="about_us mb-2">
+            <Col lg={6} md={9} data-aos="zoom-out-up" data-aos-duration="1500">
+              <div className="about_us">
                 <Accordion defaultActiveKey="0">
                   <div className="accordion_border mt-4 mb-1">
                     <Accordion.Item eventKey="0" className="position-relative">

@@ -8,7 +8,11 @@ import twitter from "../assets/images/webp/twitterfooter.webp";
 const Myfooter = () => {
   return (
     <>
-      <footer className="position-relative footer_bg z-3 pt-5 pb-3">
+      <footer
+        className="position-relative footer_bg z-3 pt-5"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <Container>
           <Row className="justify-content-between">
             <Col lg={3} md={6}>
@@ -69,34 +73,45 @@ const Myfooter = () => {
               </p>
             </div>
             <div className="pt-sm-0 pt-3 pe-xl-5 me-xxl-5">
-              <img
-                className="me-3 curser_pointer icons_hover transition_300ms"
-                height={30}
-                width={30}
-                src={fb}
-                alt="facebook"
-              />
-              <img
-                className="me-3 curser_pointer icons_hover transition_300ms"
-                height={30}
-                width={30}
-                src={insta}
-                alt="insta"
-              />
-              <img
-                className="me-3 curser_pointer icons_hover transition_300ms"
-                height={30}
-                width={30}
-                src={linked}
-                alt="linked"
-              />
-              <img
-                className="me-3 curser_pointer icons_hover transition_300ms"
-                height={30}
-                width={30}
-                src={twitter}
-                alt="twitter"
-              />
+              <a href="https://www.facebook.com/login/" target="_blank">
+                <img
+                  className="me-3 icons_hover transition_300ms"
+                  height={30}
+                  width={30}
+                  src={fb}
+                  alt="facebook"
+                />
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img
+                  className="me-3 icons_hover transition_300ms"
+                  height={30}
+                  width={30}
+                  src={insta}
+                  alt="insta"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/login?session_redirect=%2Foauth%2Fv2%2Flogin-success%3Fapp_id%3D5559396%26auth_type%3DAC%26flow%3D%257B%2522scope%2522%253A%2522r_liteprofile%2Br_emailaddress%2522%252C%2522state%2522%253A%2522meGCSbmnVSKVGlKJyIh6hX63gZhC5oGvYLN60Hm3%2522%252C%2522appId%2522%253A5559396%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%252C%2522creationTime%2522%253A1669627129674%252C%2522redirectUri%2522%253A%2522https%253A%252F%252F24slides%2Ecom%252Ftemplates%252Fauth%252Fsocial%252Fcallback%2522%257D&fromSignIn=1&trk=oauth&cancel_redirect=%2Foauth%2Fv2%2Flogin-cancel%3Fapp_id%3D5559396%26auth_type%3DAC%26flow%3D%257B%2522scope%2522%253A%2522r_liteprofile%2Br_emailaddress%2522%252C%2522state%2522%253A%2522meGCSbmnVSKVGlKJyIh6hX63gZhC5oGvYLN60Hm3%2522%252C%2522appId%2522%253A5559396%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%252C%2522creationTime%2522%253A1669627129674%252C%2522redirectUri%2522%253A%2522https%253A%252F%252F24slides%2Ecom%252Ftemplates%252Fauth%252Fsocial%252Fcallback%2522%257D"
+                target="_blank"
+              >
+                <img
+                  className="me-3 icons_hover transition_300ms"
+                  height={30}
+                  width={30}
+                  src={linked}
+                  alt="linked"
+                />
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <img
+                  className="me-3 icons_hover transition_300ms"
+                  height={30}
+                  width={30}
+                  src={twitter}
+                  alt="twitter"
+                />
+              </a>
             </div>
           </div>
         </Container>
