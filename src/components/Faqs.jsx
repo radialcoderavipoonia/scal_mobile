@@ -14,7 +14,7 @@ const Faqs = () => {
                   <img src={faqimg} alt="faqimg" className="w-100 pb-lg-0 pb-4" width={724} />
                 </div>
               </Col>
-              <Col xl={7} lg={6}>
+              <Col xl={6} lg={6}>
                 <div className="d-flex flex-column justify-content-start">
                   <h4 className="ff_rubik fw-medium color_white fs_4 mb-0 fs_4xl">
                     FAQs

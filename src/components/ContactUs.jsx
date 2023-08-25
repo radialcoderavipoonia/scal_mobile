@@ -119,9 +119,6 @@ const ContactUs = () => {
                         </g>
                       </svg>
                     </div>
-                    <div class="dropdown-content">
-                      <p>Hello World!</p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -146,9 +143,6 @@ const ContactUs = () => {
                         />
                       </g>
                     </svg>
-                  </div>
-                  <div class="dropdown-content">
-                    <p>Hello World!</p>
                   </div>
                 </div>
               </div>
