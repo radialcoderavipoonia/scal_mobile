@@ -339,7 +339,7 @@
     background: -o-linear-gradient(313.61deg, #0076be 3.65%, #48bf91 89.63%);
     background: linear-gradient(136.39deg, #0076be 3.65%, #48bf91 89.63%);
     right: 0%;
-    width: 290px;
+    width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -374,11 +374,11 @@
     transform: translateX(0);
   }
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .zindex_7_sm {
     z-index: 7;
   }
-}
+} */
 @media (max-width: 576px) {
   .lh_normal_sm {
     line-height: normal;
@@ -386,7 +386,7 @@
   .green_choose::after {
     display: none;
   }
-  .nav_show {
+  /* .nav_show {
     width: 100% !important;
-  }
+  } */
 }
