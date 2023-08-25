@@ -115,6 +115,41 @@
   background-repeat: no-repeat;
   padding-top: 134px;
 }
+.roadmap_text {
+  -webkit-text-stroke: 1px var(--clr-white);
+  color: transparent;
+}
+.lh_120 {
+  line-height: 120%;
+}
+.mb_15 {
+  margin-bottom: 15px;
+}
+.road_line::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background-image: url(../src/assets/images/png/line.png);
+}
+.road_circle1::after {
+  position: absolute;
+  content: "";
+  background-image: url(../src/assets/images/svg/roadmap-track-circle.svg);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: 50%;
+  transform: translateX(50%);
+  top: 0;
+}
+.trlateY_-20 {
+  transform: translateY(-20px);
+}
 @media (min-width: 1200px) and (max-width: 1920px) {
   .min_vh_100_custom {
     min-height: 100vh;
@@ -151,5 +186,17 @@
   }
   .vh_100_md {
     min-height: 100vh;
+  }
+  .road_line::after {
+    left: 20px;
+  }
+  .road_circle1::after {
+    left: 7px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 576px) {
+  .lh_normal_sm {
+    line-height: normal;
   }
 }
