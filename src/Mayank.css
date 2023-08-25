@@ -334,3 +334,30 @@ div.accordion-body {
   background-size: cover;
 }
 }
+/* ======================================Animations================= */
+.scale_animation {
+  animation-name: scale;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: rotate(3deg);
+  transform: rotate(0.3rad);
+  transform: rotate(3grad);
+  transform: rotate(0.03turn);
+  transition: 100ms;
+}
+
+@keyframes scale {
+  25% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

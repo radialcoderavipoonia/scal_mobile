@@ -5,21 +5,26 @@ import sec2 from "../assets/images/webp/sec2.webp";
 import sec3 from "../assets/images/webp/sec3.webp";
 import Aos from "aos";
 const Sec1 = () => {
-   Aos.init();
+  Aos.init();
   return (
     <>
       <section className="position-relative py-5 z-3 overflow_x_hidden">
-        <div className="blue_ellipse"></div>
-        <div className="blue_ellipse2"></div>
-        <div className="green_ellipse"></div>
+        <div className="blue_ellipse scale_animation "></div>
+        <div className="blue_ellipse2 scale_animation "></div>
+        <div className="green_ellipse scale_animation "></div>
         <Container className="pb-5">
           <Row className="align-items-center justify-content-between">
-            <Col lg={6} data-aos="fade-right">
+            <Col lg={6} data-aos="fade-right" data-aos-duration="1500">
               <div>
                 <img className="mh_341px w-100" src={sec1} alt="sec1" />
               </div>
             </Col>
-            <Col lg={5} className="pt-lg-0 pt-4" data-aos="fade-left">
+            <Col
+              lg={5}
+              className="pt-lg-0 pt-4"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <div className="d-flex align-items-start">
                 <div>
                   <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
@@ -35,7 +40,12 @@ const Sec1 = () => {
             </Col>
           </Row>
           <Row className="align-items-center flex-column-reverse flex-lg-row justify-content-lg-between justify-content-center">
-            <Col lg={5} className="pt-lg-0 pt-4" data-aos="fade-right">
+            <Col
+              lg={5}
+              className="pt-lg-0 pt-4"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <div className="d-flex align-items-start">
                 <div>
                   <p className="color_white90 ms-4 ms-sm-0 ff_rubik fw-normal mw_405 fs_xl mb-0  greenlinepera position-relative">
@@ -48,19 +58,24 @@ const Sec1 = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={5} md={9} data-aos="fade-left">
+            <Col lg={5} md={9} data-aos="fade-left" data-aos-duration="1500">
               <div className="pt-lg-0 pt-5">
                 <img className="mh_341px w-100 " src={sec2} alt="sec2" />
               </div>
             </Col>
           </Row>
           <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pt-lg-0">
-            <Col lg={5} md={9} data-aos="fade-right">
+            <Col lg={5} md={9} data-aos="fade-right" data-aos-duration="1500">
               <div>
                 <img className="mh_341px w-100 " src={sec3} alt="sec3" />
               </div>
             </Col>
-            <Col lg={5} className="pt-lg-0 pt-4" data-aos="fade-left">
+            <Col
+              lg={5}
+              className="pt-lg-0 pt-4"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <div className="d-flex align-items-start">
                 <div className="pt-4 pt-lg-0">
                   <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
@@ -76,6 +91,7 @@ const Sec1 = () => {
           <div
             className="d-flex align-items-center justify-content-center w-100 py-3 mt-5 mb_70px pt-5 position-relative z-1 "
             data-aos="flip-left"
+            data-aos-duration="1500"
           >
             <div className="mw_881px  py-4 secpera px-lg-5 bg_lg_blue">
               <div className="position-relative">

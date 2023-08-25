@@ -17,6 +17,7 @@ export const ChooseUs = () => {
           <Row
             className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 hover_circle"
             data-aos="fade-up-left"
+            data-aos-duration="1500"
           >
             <Col
               md={5}
@@ -52,6 +53,7 @@ export const ChooseUs = () => {
           <Row
             className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1 mt-5 flex-sm-row flex-column"
             data-aos="fade-up-right"
+            data-aos-duration="1500"
           >
             <Col
               md={5}
@@ -91,6 +93,7 @@ export const ChooseUs = () => {
           <Row
             className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 trlateY_-20 mt-5"
             data-aos="fade-up-left"
+            data-aos-duration="1500"
           >
             <Col md={5} sm={5} xs={10}>
               <p className="text-sm-end lh_normal_sm text-start opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text">

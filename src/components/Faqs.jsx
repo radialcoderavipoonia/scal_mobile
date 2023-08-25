@@ -9,7 +9,10 @@ const Faqs = () => {
         <div className="blue_ellipse3"></div>
         <div className="my_container container position-relative ">
           <Row className="justify-content-between align-items-center">
-            <Col xl={5} lg={6} data-aos="zoom-in-right">
+            <Col
+              xl={5}
+              lg={6}
+            >
               <div className="position_absolute top_14 left_-20 mw_724 mx-auto">
                 <img
                   src={faqimg}
@@ -19,7 +22,7 @@ const Faqs = () => {
                 />
               </div>
             </Col>
-            <Col xl={6} lg={6} data-aos="zoom-out">
+            <Col xl={6} lg={6} data-aos="zoom-out" data-aos-duration="1500">
               <div className="d-flex flex-column justify-content-start">
                 <h4 className="ff_rubik fw-medium color_white fs_4 mb-0 fs_4xl">
                   FAQs

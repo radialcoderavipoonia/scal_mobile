@@ -8,8 +8,9 @@ export const Hero = () => {
       <div
         className=" d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3"
         data-aos="flip-up"
+        data-aos-duration="1500"
       >
-        <div className=" hero_green_shadow position-absolute"></div>
+        <div className=" hero_green_shadow position-absolute scale_animation "></div>
         <MyNav />
         <Container className="my_container pt-4 mt-2 flex-grow-1 d-flex flex-column justify-content-center">
           <p className="clr_white ff_rubik text-center fw-medium lh_112 mb-2 fs_5xl mt-5">

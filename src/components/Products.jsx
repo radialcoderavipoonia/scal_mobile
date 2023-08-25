@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <>
       <section className=" position-relative py-5 mb-xl-5 z-0 py-5 my-4"id="products">
-        <div className="sec_shadow z-0"></div>
+        <div className="sec_shadow z-0 scale_animation"></div>
         <h2 className="text-center ff_rubik fw-medium fs_4xl color_white mb-0">
           Products
         </h2>
@@ -19,6 +19,7 @@ const Products = () => {
                   key={phone.id}
                   className="py-4 "
                   data-aos="flip-right"
+                  data-aos-duration="3000"
                 >
                   <div className="d-flex flex-column align-items-center  pb-lg-5 py-3 bg_blur  px-4 hover_pro transition_300ms h-100 bg_pro">
                     <div className="pt-5">

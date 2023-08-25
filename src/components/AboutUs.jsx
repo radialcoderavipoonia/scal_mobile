@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <>
       <section className="py-5" id="aboutus">
-        <div className="my_container container position-relative about_green">
+        <div className="my_container container position-relative about_green  ">
           <h2 className="ff_rubik fs_4xl fw-medium text-lg-start text-center text-white mb-0">
             About Us
           </h2>
@@ -17,7 +17,7 @@ const AboutUs = () => {
             We Started With A Single Goal:
           </p>
           <Row className="justify-content-lg-between flex-lg-row justify-content-center flex-column-reverse align-items-center">
-            <Col lg={6} md={9} data-aos="zoom-out-up">
+            <Col lg={6} md={9} data-aos="zoom-out-up" data-aos-duration="1500">
               <div className="about_us">
                 <Accordion defaultActiveKey="0">
                   <div className="accordion_border my-3">
@@ -121,7 +121,7 @@ const AboutUs = () => {
                 </Accordion>
               </div>
             </Col>
-            <Col lg={6} md={9} sm={11} data-aos="zoom-out-down">
+            <Col lg={6} md={9} sm={11}>
               <div className="d-flex justify-content-center">
                 <div className="position_absolute right_-100 top-0 mw_561">
                   <img

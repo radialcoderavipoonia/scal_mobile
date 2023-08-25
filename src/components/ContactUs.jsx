@@ -6,11 +6,15 @@ const ContactUs = () => {
   return (
     <>
       <section className="position-relative">
-        <div className="green_ellipse2"></div>
+        <div className="green_ellipse2 scale_animation "></div>
 
         <div className="my_container container py-5 position-relative green_choose">
           <div className="d-flex justify-content-center align-items-center text-center mb-3 position-relative z-1">
-            <div className="pb-4" data-aos="zoom-out-down">
+            <div
+              className="pb-4"
+              data-aos="zoom-out-down"
+              data-aos-duration="1500"
+            >
               <h2 className="text-white mb-0 ff_rubik fw-medium fs_4xl">
                 Contact Us
               </h2>
@@ -48,7 +52,7 @@ const ContactUs = () => {
           </div>
           <div className="pt-5">
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
-              <Col lg={5} data-aos="zoom-out-right">
+              <Col lg={5} data-aos="zoom-out-right" data-aos-duration="1500">
                 <div className="d-flex justify-content-between align-items-center pt-lg-0 pt-5">
                   <div className="w-100 pe-2">
                     <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0 pb-2">
@@ -165,7 +169,7 @@ const ContactUs = () => {
                   </button>
                 </div>
               </Col>
-              <Col lg={5} data-aos="zoom-out-left">
+              <Col lg={5} data-aos="zoom-out-left" data-aos-duration="1500">
                 <div className="position-relative">
                   <img
                     src={form_col_img}
