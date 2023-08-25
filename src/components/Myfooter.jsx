@@ -1,10 +1,10 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import flogo from "../assets/images/png/flogo.png";
-import fb from "../assets/images/png/fbfooter.png";
-import insta from "../assets/images/png/instafooter.png";
-import linked from "../assets/images/png/linkinfooter.png";
-import twitter from "../assets/images/png/twitterfooter.png";
+import flogo from "../assets/images/webp/flogo.webp";
+import fb from "../assets/images/webp/fbfooter.webp";
+import insta from "../assets/images/webp/instafooter.webp";
+import linked from "../assets/images/webp/linkinfooter.webp";
+import twitter from "../assets/images/webp/twitterfooter.webp";
 const Myfooter = () => {
   return (
     <>
