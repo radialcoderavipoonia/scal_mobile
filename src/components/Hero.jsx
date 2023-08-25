@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import heromap from "../assets/images/png/hero_map.png";
+import heromap from "../assets/images/webp/hero_map.webp";
 import MyNav from "./MyNav";
 export const Hero = () => {
   return (

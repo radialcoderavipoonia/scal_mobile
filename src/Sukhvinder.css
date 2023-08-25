@@ -158,7 +158,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-  background-image: url(../src/assets/images/png/line.png);
+  background-image: url(../src/assets/images/webp/line.webp);
 }
 .road_circle1::after {
   position: absolute;
