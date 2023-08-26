@@ -4,12 +4,12 @@ import Aos from "aos";
 export const ChooseUs = () => {
    Aos.init();
   return (
-    <div className="choose_bg py-5" id="choose">
+    <div className="choose_bg py-md-5" id="choose">
       <Container className=" my_container my-xl-5 py_38">
         <p className="ff_rubik fw-medium text-center clr_white fs_4xl mb-0">
           Why Choose Us?
         </p>
-        <p className="pb-5 clr_white ff_rubik fw-normal fs_md opacity_07 text-center mb-4">
+        <p className="pb-md-5 clr_white ff_rubik fw-normal fs_md opacity_07 text-center mb-4">
           Here are a few good reasons that make SCal Mobile your no.1 choice:
         </p>
         <div className="position-relative road_line mt-5">

@@ -131,10 +131,8 @@ const ContactUs = () => {
                   <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0 pb-2">
                     Message
                   </p>
-                  <input
-                    type="text"
-                    className="w-100 mt-1 input_form text-white h_150 px-2"
-                  />
+                 
+                  <textarea className="w-100 mt-1 input_form text-white h_150 px-2"></textarea>
                 </div>
                 <div className="pt-5 text-center text-lg-start">
                   <button className="ff_rubik fs_md fw-normal text-white nav_btn">
@@ -142,7 +140,12 @@ const ContactUs = () => {
                   </button>
                 </div>
               </Col>
-              <Col lg={5} sm={8} data-aos="zoom-out-left" data-aos-duration="1500">
+              <Col
+                lg={5}
+                sm={8}
+                data-aos="zoom-out-left"
+                data-aos-duration="1500"
+              >
                 <div className="position-relative">
                   <img
                     src={form_col_img}
