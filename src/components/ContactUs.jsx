@@ -21,6 +21,33 @@ const ContactUs = () => {
               <p className="ff_rubik mb-0 fst-italic fw-normal fs_xl linear_skyblue_color pt-2">
                 Join Our Family Of Partners
               </p>
+              <div className="mw_899 pt_14 d-flex flex-column justify-content-center">
+                <p className="mb-0 fs_md fw-normal text-white opacity_07">
+                  Want to access unique products at unbeatable prices? Be one of
+                  the first to get their hands on the market’s ultimate
+                  smartphones?
+                </p>
+                <p className="mb-0 pt-1 fs_md fw-normal text-white opacity_07">
+                  If you have already nodded positively, this is your sign to
+                  partner with us and enter our ever-growing community of loyal
+                  members!
+                </p>
+                <p className="mb-0 pt-1 fs_md fw-normal text-white opacity_07">
+                  Being a SCal Mobile partner means you get solutions tailored
+                  to your business needs and access our daily and weekly
+                  inventory lists with numerous smartphone opportunities at the
+                  most competitive prices. We constantly update our catalogs to
+                  help you unlock the best deals in the secondary smartphone
+                  industry!
+                </p>
+                <p className="mb-0 pt-1 fs_md fw-bold text-white opacity_07">
+                  So, are you ready to earn more for less?
+                </p>
+                <p className="mb-0 pt-1 fs_md fw-normal text-white opacity_07">
+                  Fill out the contact form below, and we will take care of the
+                  rest.
+                </p>
+              </div>
             </div>
           </div>
           <div className="pt-5">
@@ -131,7 +158,7 @@ const ContactUs = () => {
                   <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0 pb-2">
                     Message
                   </p>
-                 
+
                   <textarea className="w-100 mt-1 input_form text-white h_150 px-2"></textarea>
                 </div>
                 <div className="pt-5 text-center text-lg-start">
