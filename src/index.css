@@ -228,7 +228,7 @@
   border-radius: none !important;
 }
 .accordion-item:last-of-type {
-  border-radius: none !important;
+  border-radius: 1px !important;
 }
 .accordion-button:not(.collapsed) {
   color: white !important;
