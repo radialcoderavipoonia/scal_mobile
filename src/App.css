@@ -60,15 +60,15 @@
 .clr_white {
   color: var(--clr-white);
 }
-/* background color  */
-.bg_body {
-  background-color: var(--bg-body);
-}
 .color_white {
   color: White;
 }
 .color_light {
   color: rgba(255, 255, 255, 0.7);
+}
+/* background color  */
+.bg_body {
+  background-color: var(--bg-body);
 }
 @media (max-width: 1200px) {
   :root {
@@ -99,9 +99,9 @@
 @media (max-width: 480px) {
   :root {
     --fs-xl: 14px;
-    --fs-md:14px;
+    --fs-md: 14px;
     --fs-lg: 13px;
-    --fs-4xl:30px;
+    --fs-4xl: 30px;
     --fs-5xl: 19px;
     --fs-3xl: 22px;
     --fs-7xl: 80px;
