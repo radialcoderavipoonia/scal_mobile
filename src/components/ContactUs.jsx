@@ -52,7 +52,7 @@ const ContactUs = () => {
           </div>
           <div className="pt-5">
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
-              <Col lg={5} data-aos="zoom-out-right" data-aos-duration="1500">
+              <Col lg={6} data-aos="zoom-out-right" data-aos-duration="1500">
                 <div className="d-flex justify-content-between align-items-center pt-lg-0 pt-5">
                   <div className="w-100 pe-2">
                     <p className="ff_rubik fs_md fw-normal text-white opacity_07 mb-0 pb-2">
@@ -168,12 +168,12 @@ const ContactUs = () => {
                 </div>
               </Col>
               <Col
-                lg={5}
-                sm={8}
+                lg={6}
+                sm={6}
                 data-aos="zoom-out-left"
                 data-aos-duration="1500"
               >
-                <div className="position-relative">
+                <div className="position-relative right_-100">
                   <img
                     src={form_col_img}
                     alt="form sumbition col image"

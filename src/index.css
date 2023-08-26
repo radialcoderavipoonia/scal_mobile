@@ -905,6 +905,11 @@ input {
     display: none !important;
   }
 }
+@media (max-width:1400px) {
+  .right_-100{
+    right: -20px;
+  }
+}
 /* max 1280 */
 @media (max-width: 1280px) {
   .left_arrow {
@@ -944,6 +949,9 @@ input {
   }
   .top_1280 {
     top: 750px;
+  }
+  .right_-100{
+    right: 0;
   }
 }
 /* max 992 */
