@@ -65,7 +65,7 @@ const Myfooter = () => {
           </Row>
         </Container>
         <div className="footerline"></div>
-        <Container>
+        <Container className="my_container">
           <div className="d-sm-flex justify-content-between align-items-center py-4">
             <div>
               <p className="ff_rubik color_light fs_md mb-0">
