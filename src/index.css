@@ -718,7 +718,7 @@ div.accordion-body {
   position: absolute;
   bottom: 4%;
   right: -4%;
-  filter: blur(0px);
+  filter: blur(100px);
   opacity: 40%;
 }
 .shadow {
