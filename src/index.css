@@ -188,20 +188,7 @@
   width: 5px;
   height: 100%;
 }
-.about_green::before {
-  content: "";
-  position: absolute;
-  width: 336px;
-  height: 336px;
-  border-radius: 50%;
-  opacity: 0.4;
-  background: #0076be;
-  filter: blur(93px);
-  bottom: -4%;
-  right: -50%;
-  transform: translateX(-90%);
 
-}
 /* accordian */
 .about_us .accordion-button::after {
   background-image: url(./assets//images//svg//about_us_arrow.svg) !important;
@@ -716,11 +703,23 @@ div.accordion-body {
   width: 384px;
   border-radius: 50%;
   background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
-  filter: blur(120px);
+  filter: blur(150px);
   opacity: 40%;
   position: absolute;
   bottom: 35%;
   left: -10%;
+}
+
+.blue_ellipse5 {
+  height: 336px;
+  width: 336px;
+  border-radius: 50%;
+  background-color: rgba(0, 118, 190, 1);
+  position: absolute;
+  bottom: 4%;
+  right: -4%;
+  filter: blur(0px);
+  opacity: 40%;
 }
 .shadow {
   margin-top: -15px;
@@ -846,15 +845,15 @@ input {
   opacity: 0.7;
 }
 .big_circle_blue {
- border-radius: 50%;
-    opacity: 0.3;
-    background: #0076be;
-    filter: blur(80px);
-    width: 411px;
-    height: 411px;
-    position: absolute;
-    bottom: -39%;
-    left: 10%;
+  border-radius: 50%;
+  opacity: 0.3;
+  background: #0076be;
+  filter: blur(80px);
+  width: 411px;
+  height: 411px;
+  position: absolute;
+  bottom: -39%;
+  left: 10%;
 }
 .Services_card {
   background: transparent;
@@ -975,23 +974,7 @@ input {
     padding-bottom: 0;
   }
 }
-/* min 768 */
-@media (min-width: 768px) {
-  .about_green::after {
-    content: "";
-    position: absolute;
-    width: 384px;
-    height: 384px;
-    border-radius: 384px;
-    opacity: 0.5;
-    background: linear-gradient(141deg, #48bf91 0%, #8bd9c7 100%);
-    filter: blur(151px);
-    top: 2%;
-    left: -50%;
-    transform: translateX(50%);
 
-  }
-}
 /* max 768 */
 @media (max-width: 768px) {
   .about_green::before {
