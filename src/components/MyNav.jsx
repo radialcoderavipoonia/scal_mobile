@@ -65,7 +65,7 @@ const MyNav = () => {
                     </span>
                     {/* option */}
                     <div className="d-flex align-items-center">
-                      <ul className="d-flex align-items-center mb-md-0 flex-md-row flex-column ps-0 gap-md-0 gap-2 mb-4">
+                      <ul className="d-flex align-items-center mb-md-0 flex-md-row flex-column ps-0 gap-md-0 gap-2 mb-0">
                         <li>
                           <a
                             href="#"
