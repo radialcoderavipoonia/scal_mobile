@@ -26,7 +26,7 @@ function App() {
       <Preloader />
       <div className="overflow-hidden bg_body">
         <div className=" position-relative line_back">
-          <div className="nav_shadow position-absolute"></div>
+          <div className="nav_shadow position-absolute scale_animation"></div>
           <Hero />
         </div>
         <Sec1 />

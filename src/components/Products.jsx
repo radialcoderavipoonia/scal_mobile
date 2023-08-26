@@ -29,10 +29,10 @@ const Products = () => {
                     <p className="ff_rubik fst-italic color_sky fs_lg">
                       {phone.italictext}
                     </p>
-                    <h5 className="color_white ff_ribik fw-normal fs_xl text-center">
+                    <h5 className="color_white ff_rubik fw-normal fs_xl text-center">
                       {phone.heading}
                     </h5>
-                    <p className="ff_rubuik fw-normal fs_md color_whitelight text-center pt-2  mb-xl-5">
+                    <p className="ff_rubik fw-normal fs_md color_whitelight text-center pt-2  mb-xl-5">
                       {phone.bigpara}
                     </p>
                   </div>
