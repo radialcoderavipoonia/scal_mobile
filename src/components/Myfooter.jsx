@@ -75,7 +75,7 @@ const Myfooter = () => {
             <div className="pt-sm-0 pt-3 pe-xl-5 me-xxl-5">
               <a href="https://www.facebook.com/login/" target="_blank">
                 <img
-                  className="me-3 icons_hover transition_300ms"
+                  className="me-3 icons_hover transition_300ms btn_hover"
                   height={30}
                   width={30}
                   src={fb}
@@ -84,7 +84,7 @@ const Myfooter = () => {
               </a>
               <a href="https://www.instagram.com/" target="_blank">
                 <img
-                  className="me-3 icons_hover transition_300ms"
+                  className="me-3 icons_hover transition_300ms btn_hover"
                   height={30}
                   width={30}
                   src={insta}
@@ -96,7 +96,7 @@ const Myfooter = () => {
                 target="_blank"
               >
                 <img
-                  className="me-3 icons_hover transition_300ms"
+                  className="me-3 icons_hover transition_300ms btn_hover"
                   height={30}
                   width={30}
                   src={linked}
@@ -105,7 +105,7 @@ const Myfooter = () => {
               </a>
               <a href="https://twitter.com/" target="_blank">
                 <img
-                  className="me-3 icons_hover transition_300ms"
+                  className="me-3 icons_hover transition_300ms btn_hover"
                   height={30}
                   width={30}
                   src={twitter}
