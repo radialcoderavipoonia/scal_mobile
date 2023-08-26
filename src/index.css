@@ -469,13 +469,13 @@ div.accordion-body {
 }
 @keyframes scale {
   25% {
-    transform: scale(0.4);
+    transform: scale(0.8);
   }
   50% {
-    transform: scale(0.7);
+    transform: scale(1);
   }
   75% {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
   100% {
     transform: scale(1);
@@ -693,7 +693,7 @@ div.accordion-body {
   width: 287px;
   border-radius: 50%;
   background-color: rgba(0, 118, 190, 1);
-  filter: blur(80px);
+  filter: blur(120px);
   opacity: 40%;
   position: absolute;
   bottom: 0%;
@@ -705,7 +705,7 @@ div.accordion-body {
   width: 287px;
   border-radius: 50%;
   background-color: rgba(0, 118, 190, 1);
-  filter: blur(80px);
+  filter: blur(120px);
   opacity: 40%;
   position: absolute;
   top: 20%;
@@ -716,7 +716,7 @@ div.accordion-body {
   width: 384px;
   border-radius: 50%;
   background: linear-gradient(140.69deg, #48bf91 11.98%, #8bd9c7 83.25%);
-  filter: blur(80px);
+  filter: blur(120px);
   opacity: 40%;
   position: absolute;
   bottom: 35%;
@@ -772,7 +772,7 @@ div.accordion-body {
   opacity: 40%;
   position: absolute;
   top: 0%;
-  right: -10%;
+  right: -9%;
   z-index: 2 !important;
 }
 .green_ellipse2 {
@@ -788,14 +788,10 @@ div.accordion-body {
 }
 .scale_animation {
   animation-name: scale;
-  animation-duration: 3000ms;
+  animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transform: rotate(3deg);
-  transform: rotate(0.3rad);
-  transform: rotate(3grad);
-  transform: rotate(0.03turn);
-  transition: 100ms;
+  transition: 400ms;
   pointer-events: none;
 }
 .linear_skyblue_color {
@@ -850,15 +846,15 @@ input {
   opacity: 0.7;
 }
 .big_circle_blue {
-  border-radius: 50%;
-  opacity: 0.3;
-  background: #0076be;
-  filter: blur(139px);
-  width: 411px;
-  height: 411px;
-  position: absolute;
-  bottom: -15%;
-  left: 10%;
+ border-radius: 50%;
+    opacity: 0.3;
+    background: #0076be;
+    filter: blur(80px);
+    width: 411px;
+    height: 411px;
+    position: absolute;
+    bottom: -39%;
+    left: 10%;
 }
 .Services_card {
   background: transparent;
