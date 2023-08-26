@@ -313,6 +313,15 @@ div.accordion-body {
   -webkit-box-shadow: 0 0 0 0.7em transparent;
   box-shadow: 0 0 0 0.7em transparent;
 }
+.btn_hover:hover {
+  -webkit-box-shadow: -2px 2px 29px rgb(252, 252, 252);
+  box-shadow: -2px 2px 29px rgb(252, 252, 252);
+  border-radius: 50%;
+  -webkit-animation: roadmap-track-circle 1s;
+  animation: roadmap-track-circle 1s;
+  -webkit-box-shadow: 0 0 0 0.7em transparent;
+  box-shadow: 0 0 0 0.7em transparent;
+}
 .backtotop_btn {
   border-radius: 50%;
   width: 50px;
@@ -1026,5 +1035,8 @@ input {
   }
   .green_choose::after {
     display: none;
+  }
+  .about_us .accordion-body {
+    padding: 0 0 0 0 !important;
   }
 }
