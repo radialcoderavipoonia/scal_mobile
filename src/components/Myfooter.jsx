@@ -17,12 +17,12 @@ const Myfooter = () => {
         data-aos-duration="1500"
       >
         <Container className="my_container">
-          <Row className="justify-content-between">
+          <Row className="justify-content-between mb-5">
             <Col lg={3} md={6}>
               <a href="#">
                 <img src={flogo} alt="flogo" height={126} width={111} />
               </a>
-              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-5">
+              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-0">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>
