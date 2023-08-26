@@ -25,7 +25,7 @@ const MyNav = () => {
                   alt="nav_logo"
                   width={72}
                   height={81}
-                  className="z_10 position-relative"
+                  className="z_10 position-relative animate__heartBeat"
                 />
               </a>
             </span>
@@ -60,6 +60,7 @@ const MyNav = () => {
                           alt="nav_logo"
                           width={72}
                           height={81}
+                          className="animate__heartBeat"
                         />
                       </a>
                     </span>

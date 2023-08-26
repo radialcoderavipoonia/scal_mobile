@@ -13,7 +13,7 @@ const Myfooter = () => {
         data-aos="fade-up"
         data-aos-duration="1500"
       >
-        <Container>
+        <Container className="my_container">
           <Row className="justify-content-between">
             <Col lg={3} md={6}>
               <a href="#">

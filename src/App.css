@@ -24,6 +24,7 @@
   --clr-blue37: #378ebb;
   --clr-white: #fff;
   --bg-body: #000;
+  --animate-delay: 3s !important;
 }
 /* font sizes  */
 .fs_sm {
