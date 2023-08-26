@@ -12,7 +12,7 @@ const Sec1 = () => {
         <div className="blue_ellipse scale_animation"></div>
         <div className="blue_ellipse2 scale_animation"></div>
         <div className="green_ellipse scale_animation"></div>
-
+        <div className="red_back"></div>
         <div className="pb-5 mt-2 my_container container">
           <Row className="align-items-center justify-content-between">
             <Col lg={6} data-aos="fade-right" data-aos-duration="1500">

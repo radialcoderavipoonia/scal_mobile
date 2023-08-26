@@ -1,5 +1,5 @@
 import React from "react";
-import { ImCross } from "react-icons/im";
+import { RxCross2 } from "react-icons/rx";
 import nav_logo from "../assets/images/webp/page_logo.webp";
 import { Container } from "react-bootstrap";
 const MyNav = () => {
@@ -34,7 +34,7 @@ const MyNav = () => {
             </button>
             <h2
               onClick={clickshow}
-              className="pointer position-relative z_10 text-white ps-4 mb-0"
+              className="pointer position-relative z_10 text-white ps-4 mb-0 fs_40"
             >
               {First ? (
                 <div className="d-md-none nav_toggle_icon border-0 bg-transparent position-relative">
@@ -43,7 +43,7 @@ const MyNav = () => {
                   <span className="line3 position-absolute start-0 bottom-0 rounded-pill"></span>
                 </div>
               ) : (
-                <ImCross />
+                <RxCross2 />
               )}
             </h2>
           </div>
