@@ -1,6 +1,5 @@
 import "./App.css";
 import Aos from "aos";
-import "animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactUs from "./components/ContactUs";
 import "@splidejs/react-splide/css/sea-green";
