@@ -13,7 +13,7 @@ const Preloader = () => {
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100">
         <span className="z-15 w-50 d-flex flex-column justify-content-center align-items-center">
-          <img src={Preloaderimg} alt="Preloaderimg" className="w-50" />
+          <img src={Preloaderimg} alt="Preloaderimg" className="w-50 min_h_300" />
           <div className="d-inline-block">
             <p className="ff_rubik fw-bold fs_5xl text-white mb-0 pt-4 typed">
               SCAL MOBILE

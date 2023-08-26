@@ -25,11 +25,11 @@ const MyNav = () => {
                   alt="nav_logo"
                   width={72}
                   height={81}
-                  className="z_10 position-relative"
+                  className="z_10 position-relative animate__heartBeat"
                 />
               </a>
             </span>
-            <button className="nav_btn position-relative zindex_7_sm">
+            <button className="nav_btn position-relative zindex_7_sm ff_rubik">
               Contact Us
             </button>
             <h2
@@ -60,6 +60,7 @@ const MyNav = () => {
                           alt="nav_logo"
                           width={72}
                           height={81}
+                          className="animate__heartBeat"
                         />
                       </a>
                     </span>
@@ -95,7 +96,7 @@ const MyNav = () => {
                         </li>
                       </ul>
                     </div>
-                    <button className="nav_btn d-md-block d-none">
+                    <button className="nav_btn d-md-block d-none ff_rubik">
                       Contact Us
                     </button>
                   </div>

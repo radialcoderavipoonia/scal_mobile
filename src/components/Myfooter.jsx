@@ -13,7 +13,7 @@ const Myfooter = () => {
         data-aos="fade-up"
         data-aos-duration="1500"
       >
-        <Container>
+        <Container className="my_container">
           <Row className="justify-content-between">
             <Col lg={3} md={6}>
               <a href="#">
@@ -65,7 +65,7 @@ const Myfooter = () => {
           </Row>
         </Container>
         <div className="footerline"></div>
-        <Container>
+        <Container className="my_container">
           <div className="d-sm-flex justify-content-between align-items-center py-4">
             <div>
               <p className="ff_rubik color_light fs_md mb-0">
