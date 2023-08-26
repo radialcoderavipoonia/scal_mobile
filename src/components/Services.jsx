@@ -1,7 +1,7 @@
 import React from "react";
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import { SliderCards } from "./Helper";
-import { Col, } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 const Services = () => {
   return (
     <>
@@ -26,9 +26,7 @@ const Services = () => {
                 perPage: 3,
                 perMove: 1,
                 breakpoints: {
-                  992: {
-                    
-                  },
+                  992: {},
                   992: {
                     perPage: 2,
                     gap: "2rem",
@@ -41,7 +39,7 @@ const Services = () => {
               }}
             >
               <div className="d-xl-block d-none">
-                <div className="splide__arrows position-relative top_1250 top_300">
+                <div className="splide__arrows position-relative top_1280 top_300">
                   <button className="splide__arrow splide__arrow--prev left_arrow "></button>
                   <button className="splide__arrow splide__arrow--next right_arrow"></button>
                 </div>
