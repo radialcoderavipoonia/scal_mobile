@@ -622,6 +622,7 @@ div.accordion-body {
   box-shadow: -2px 2px 29px rgb(252, 252, 252);
   z-index: 2;
   border-radius: 50%;
+  
   animation: roadmap-track-circle2 3s infinite;
   -webkit-box-shadow: 0 0 0 0.7em transparent;
   box-shadow: 0 0 0 0.7em transparent;
