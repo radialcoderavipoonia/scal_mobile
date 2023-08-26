@@ -34,7 +34,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q1. What is SCal Mobile?
+                        <span className="pe-2">Q1.</span>   What is SCal Mobile?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
@@ -53,7 +53,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q2. How long has SCal Mobile been in business?
+                        <span className="pe-2">Q2.</span>   How long has SCal Mobile been in business?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
@@ -71,7 +71,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q3. Where does SCal Mobile operate?
+                        <span className="pe-2">Q3.</span>   Where does SCal Mobile operate?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
@@ -89,7 +89,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q4. What products does SCal Mobile offer?
+                        <span className="pe-2">Q4.</span>   What products does SCal Mobile offer?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
@@ -107,7 +107,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q5. How do I place an order with SCal Mobile?
+                        <span className="pe-2">Q5.</span>   How do I place an order with SCal Mobile?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
@@ -125,7 +125,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        Q6. How often is inventory updated?
+                        <span className="pe-2">Q6.</span>   How often is inventory updated?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>
