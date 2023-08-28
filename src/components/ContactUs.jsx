@@ -50,7 +50,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="pt-5">
+          <div className="pt-5 pb-xl-5">
             <Row className="justify-content-between align-items-center flex-column-reverse flex-lg-row">
               <Col lg={6} data-aos="zoom-out-right" data-aos-duration="1500">
                 <div className="d-flex justify-content-between align-items-center pt-lg-0 pt-5">
@@ -161,7 +161,7 @@ const ContactUs = () => {
 
                   <textarea className="w-100 mt-1 input_form text-white h_150 px-2 resize"></textarea>
                 </div>
-                <div className="pt-xs-5 pt-4 text-center text-lg-start">
+                <div className="pt-xs-5 pb-xl-5 mb-lg-5 pt-4 text-center text-lg-start">
                   <button className="ff_rubik fs_md fw-normal text-white nav_btn">
                     Send Now
                   </button>
