@@ -17,7 +17,7 @@ const Products = () => {
                   lg={4}
                   md={6}
                   key={phone.id}
-                  className="py-4 pt-3"
+                  className="py-4 pt-3" 
                   data-aos="flip-right"
                   data-aos-duration="3000"
                 >

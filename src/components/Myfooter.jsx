@@ -6,6 +6,9 @@ import insta from "../assets/images/webp/instafooter.webp";
 import linked from "../assets/images/webp/linkinfooter.webp";
 import twitter from "../assets/images/webp/twitterfooter.webp";
 const Myfooter = () => {
+  const today = new Date();
+  const year = today.getFullYear();
+
   return (
     <>
       <footer
@@ -14,12 +17,12 @@ const Myfooter = () => {
         data-aos-duration="1500"
       >
         <Container className="my_container">
-          <Row className="justify-content-between">
+          <Row className="justify-content-between mb-5">
             <Col lg={3} md={6}>
               <a href="#">
                 <img src={flogo} alt="flogo" height={126} width={111} />
               </a>
-              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-5">
+              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-0">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>
@@ -69,7 +72,7 @@ const Myfooter = () => {
           <div className="d-sm-flex justify-content-between align-items-center py-4">
             <div>
               <p className="ff_rubik color_light fs_md mb-0">
-                Copyright © 2022 ScalMobile
+                Copyright © <span> {year}</span> ScalMobile
               </p>
             </div>
             <div className="pt-sm-0 pt-3 pe-xl-5 me-xxl-5">
