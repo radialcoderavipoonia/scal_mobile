@@ -159,9 +159,9 @@ const ContactUs = () => {
                     Message
                   </p>
 
-                  <textarea className="w-100 mt-1 input_form text-white h_150 px-2"></textarea>
+                  <textarea className="w-100 mt-1 input_form text-white h_150 px-2 resize"></textarea>
                 </div>
-                <div className="pt-5 text-center text-lg-start">
+                <div className="pt-xs-5 pt-4 text-center text-lg-start">
                   <button className="ff_rubik fs_md fw-normal text-white nav_btn">
                     Send Now
                   </button>

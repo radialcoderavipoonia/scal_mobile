@@ -10,14 +10,14 @@ const Products = () => {
           Products
         </h2>
         <Container className="my_container pb-xl-5">
-          <Row className="pt-lg-5 pt-xs-3 mt-5 justify-content-center">
+          <Row className="pt-lg-5 pt-xs-3 mt-xs-5 mt-4 pt-2 justify-content-center">
             {ProductsCard.map((phone) => {
               return (
                 <Col
                   lg={4}
                   md={6}
                   key={phone.id}
-                  className="py-4 pt-3" 
+                  className="py-xs-4 py-2 pt-xs-3" 
                   data-aos="flip-right"
                   data-aos-duration="3000"
                 >

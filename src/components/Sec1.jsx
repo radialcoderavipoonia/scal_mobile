@@ -14,8 +14,15 @@ const Sec1 = () => {
         <div className="green_ellipse scale_animation"></div>
         <div className="red_back"></div>
         <div className="pb-5 mt-2 my_container container">
-          <Row className="align-items-center justify-content-lg-between justify-content-center">
-            <Col lg={6} xs={11} sm={10} md={8} data-aos="fade-right" data-aos-duration="1500">
+          <Row className="align-items-center justify-content-lg-between justify-content-center  mt-xs-0 mt-5">
+            <Col
+              lg={6}
+              xs={11}
+              sm={10}
+              md={8}
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <div>
                 <img className="mh_221 w-100" src={sec1} alt="sec1" />
               </div>
@@ -59,21 +66,35 @@ const Sec1 = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={5} xs={10} md={6} sm={9} data-aos="fade-left" data-aos-duration="1500">
+            <Col
+              lg={5}
+              xs={10}
+              md={6}
+              sm={9}
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <div className="pt-lg-0 pt-5">
                 <img className="mh_221 w-100 " src={sec2} alt="sec2" />
               </div>
             </Col>
           </Row>
 
-          <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pb-4 pt-lg-0">
-            <Col lg={5} xs={10} sm={9} md={6} data-aos="fade-right" data-aos-duration="1500">
+          <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 mt-xs-0 mt-4 pb-4 pt-lg-0">
+            <Col
+              lg={5}
+              xs={10}
+              sm={9}
+              md={6}
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <div>
                 <img className="mh_221 w-100 " src={sec3} alt="sec3" />
               </div>
             </Col>
             <Col
-              lg={5} 
+              lg={5}
               className="pt-lg-0 pt-3 "
               data-aos="fade-left"
               data-aos-duration="1500"

@@ -18,11 +18,17 @@ const Myfooter = () => {
       >
         <Container className="my_container">
           <Row className="justify-content-between mb-5">
-            <Col lg={3} md={6}>
+            <Col lg={4} xl={3} md={6}>
               <a href="#">
-                <img src={flogo} alt="flogo" height={126} width={111} />
+                <img
+                  src={flogo}
+                  alt="flogo"
+                  height={126}
+                  width={111}
+                  className="footer_logo"
+                />
               </a>
-              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-2 mb-0">
+              <p className="text-start color_light fs_md ff_rubik fw-normal mt-4 ps-xs-2 mb-0">
                 SCal Mobile is a U.S. tech solutions company that specializes in
                 consumer electronics.
               </p>

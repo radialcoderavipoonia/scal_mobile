@@ -4,7 +4,7 @@ import Aos from "aos";
 export const ChooseUs = () => {
   Aos.init();
   return (
-    <div className="choose_bg py-md-5" id="choose">
+    <div className="choose_bg py-md-5 py-3" id="choose">
       <Container className=" my_container my-xl-5 py_38">
         <p className="ff_rubik fw-medium text-center clr_white fs_4xl mb-0">
           Why Choose Us?
@@ -35,7 +35,7 @@ export const ChooseUs = () => {
               xs={10}
               className=" d-flex flex-column justify-content-sm-start justify-content-end"
             >
-              <p className=" ff_rubik clr_white fw-medium fs_3xl lh_120 mb_15 text-start">
+              <p className=" ff_rubik clr_white fw-medium fs_3xl lh_120 mb_15 mb-1 mt-2 text-start">
                 We Know What We Do
               </p>
               <p className=" opacity_07 ff_rubik clr_white fw-normal mb-0 fs_md text-start">
@@ -67,7 +67,7 @@ export const ChooseUs = () => {
               </p>
             </Col>
             <Col md={5} sm={8} xs={10}>
-              <p className=" ff_rubik clr_white fw-medium fs_3xl text-md-end text-start lh_120 mb_15">
+              <p className=" ff_rubik clr_white fw-medium fs_3xl text-md-end text-start lh_120 mb-1 mt-2 mb_15">
                 It’s All About What Adds Value{" "}
                 <span className="d-lg-block">For You</span>
               </p>
@@ -107,7 +107,7 @@ export const ChooseUs = () => {
               xs={10}
               className=" d-flex flex-column justify-content-start"
             >
-              <p className=" ff_rubik clr_white fw-medium fs_3xl lh_120 mb_15 ">
+              <p className=" ff_rubik clr_white fw-medium fs_3xl lh_120 mb-1 mt-2 mb_15 ">
                 However Far Away, We Will Always Serve You
               </p>
               <p className=" opacity_07 ff_rubik clr_white fw-normal mb-0 fs_md">
