@@ -121,7 +121,6 @@
   opacity: 0.5;
   background: linear-gradient(141deg, #48bf91 0%, #8bd9c7 100%);
   filter: blur(151px);
-  
 }
 .road_circle1:hover::after {
   -webkit-box-shadow: -2px 2px 29px rgb(252, 252, 252);
@@ -761,6 +760,13 @@ div.accordion-body {
   font-family: "Rubik", sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
+.hover_footer_li:hover {
+  -webkit-text-stroke: 0.5px;
+  color: white !important;
+}
+.hover_footer_li {
+  transition: all 0.2s linear;
+}
 .footerline {
   background-color: rgba(255, 255, 255, 0.703);
   min-height: 1px;
@@ -1001,12 +1007,12 @@ input {
   .ml_40 {
     margin-left: 0px;
   }
-  .mw_805{
+  .mw_805 {
     max-width: 600px !important;
   }
   .splide__track {
-  padding-top: 0px !important;
-}
+    padding-top: 0px !important;
+  }
 }
 
 /* max 768 */
@@ -1054,7 +1060,7 @@ input {
     left: 7px;
     transform: translateX(0);
   }
-  .mw_805{
+  .mw_805 {
     max-width: 500px !important;
   }
 }
@@ -1064,8 +1070,8 @@ input {
     transform: translateY(-30px);
   }
   .mb_15 {
-  margin-bottom: 15px;
-}
+    margin-bottom: 15px;
+  }
 }
 /* max 576 */
 @media (max-width: 576px) {

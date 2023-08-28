@@ -41,21 +41,29 @@ const Myfooter = () => {
                   </h5>
                   <ul className="ps-0 footer_ul pt-1 mb-0">
                     <li>
-                      <a className="ws_nowrap" href="#aboutus">
+                      <a className="ws_nowrap hover_footer_li" href="#aboutus">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a href="#services">Services</a>
+                      <a href="#services" className="hover_footer_li">
+                        Services
+                      </a>
                     </li>
                     <li>
-                      <a href="#products">Products</a>
+                      <a href="#products" className="hover_footer_li">
+                        Products
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Partners</a>
+                      <a href="#" className="hover_footer_li">
+                        Partners
+                      </a>
                     </li>
                     <li>
-                      <a href="#faqs">FAQs</a>
+                      <a href="#faqs" className="hover_footer_li">
+                        FAQs
+                      </a>
                     </li>
                   </ul>
                 </div>
