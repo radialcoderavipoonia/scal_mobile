@@ -7,8 +7,8 @@ export const Hero = () => {
     <>
       <div
         className="mb-0 d-flex flex-column justify-content-center min_vh_100_custom position-relative z-3"
-        data-aos="flip-up"
-        data-aos-duration="1500"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
       >
         <div className=" hero_green_shadow position-absolute scale_animation "></div>
         <MyNav />

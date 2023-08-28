@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Aos from "aos";
 export const ChooseUs = () => {
-   Aos.init();
+  Aos.init();
   return (
     <div className="choose_bg py-md-5" id="choose">
       <Container className=" my_container my-xl-5 py_38">
@@ -21,17 +21,17 @@ export const ChooseUs = () => {
           >
             <Col
               md={5}
-              sm={5}
+              sm={3}
               xs={10}
               className=" justify-content-sm-end justify-content-start"
             >
-              <p className="text-sm-end lh_normal_sm opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text text-start">
+              <p className="lh_normal_sm lh_120 opacity_03 ff_rubik fw_900 fs_7xl mb-0 roadmap_text text-start text-md-end">
                 01
               </p>
             </Col>
             <Col
               md={5}
-              sm={6}
+              sm={8}
               xs={10}
               className=" d-flex flex-column justify-content-sm-start justify-content-end"
             >
@@ -50,7 +50,7 @@ export const ChooseUs = () => {
             </Col>
           </Row>
           {/* 2 */}
-         
+
           <Row
             className="justify-content-md-between align-items-end align-items-sm-start justify-content-end position-relative road_circle1  mt-lg-2 mt-0 flex-sm-row flex-column"
             data-aos="fade-up-right"
@@ -58,15 +58,15 @@ export const ChooseUs = () => {
           >
             <Col
               md={5}
-              sm={5}
+              sm={3}
               xs={10}
-              className=" d-flex d-md-none justify-content-sm-end justify-content-start"
+              className=" d-flex d-md-none justify-content-sm-start justify-content-start"
             >
-              <p className="text-sm-end lh_normal_sm opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text text-start">
+              <p className="lh_120 lh_normal_sm opacity_03 ff_rubik fw_900 fs_7xl mb-0 roadmap_text text-start">
                 02
               </p>
             </Col>
-            <Col md={5} sm={6} xs={10}>
+            <Col md={5} sm={8} xs={10}>
               <p className=" ff_rubik clr_white fw-medium fs_3xl text-md-end text-start lh_120 mb_15">
                 It’s All About What Adds Value{" "}
                 <span className="d-lg-block">For You</span>
@@ -85,25 +85,25 @@ export const ChooseUs = () => {
               </p>
             </Col>
             <Col xs={5} className=" d-md-flex d-none justify-content-start">
-              <p className="text-end opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text text-start">
+              <p className="lh_120 opacity_03 ff_rubik fw_900 fs_7xl mb-0 roadmap_text text-start">
                 02
               </p>
             </Col>
           </Row>
-       
+          {/* 3 */}
           <Row
             className="justify-content-md-between align-items-end align-items-sm-start flex-sm-row flex-column justify-content-end position-relative road_circle1 mt-lg-5 mt-4"
             data-aos="fade-up-left"
             data-aos-duration="1500"
           >
-            <Col md={5} sm={5} xs={10}>
-              <p className="text-sm-end lh_normal_sm text-start opacity_03 ff_rubik fw-bolder fs_7xl mb-0 roadmap_text">
+            <Col md={5} sm={3} xs={10}>
+              <p className="lh_120 lh_normal_sm text-start text-md-end opacity_03 ff_rubik fw_900 fs_7xl mb-0 roadmap_text">
                 03
               </p>
             </Col>
             <Col
               md={5}
-              sm={6}
+              sm={8}
               xs={10}
               className=" d-flex flex-column justify-content-start"
             >

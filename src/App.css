@@ -24,6 +24,7 @@
   --clr-blue37: #378ebb;
   --clr-white: #fff;
   --bg-body: #000;
+  --animate-delay: 3s !important;
 }
 /* font sizes  */
 .fs_sm {
@@ -49,6 +50,13 @@
 }
 .fs_7xl {
   font-size: var(--fs-7xl);
+}
+.fs_40{
+  font-size: 40px;
+}
+/*  font weight */
+.fw_900 {
+  font-weight: 900;
 }
 /* colors  */
 .color_blue {
@@ -86,14 +94,14 @@
     --fs-lg: 16px;
     --fs-xl: 18px;
     --fs-3xl: 25px;
-    --fs-7xl: 150px;
+    --fs-7xl: 80px;
   }
 }
 @media (max-width: 576px) {
   :root {
     --fs-xl: 16px;
     --fs-5xl: 30px;
-    --fs-7xl: 100px;
+    --fs-7xl: 70px;
   }
 }
 @media (max-width: 480px) {
@@ -104,6 +112,6 @@
     --fs-4xl: 30px;
     --fs-5xl: 19px;
     --fs-3xl: 22px;
-    --fs-7xl: 80px;
+    --fs-7xl: 50px;
   }
 }

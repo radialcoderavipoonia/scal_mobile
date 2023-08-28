@@ -1,7 +1,6 @@
 import React from "react";
 import { Accordion, Col, Row } from "react-bootstrap";
 import aboutusimg from "../assets/images/webp/aboutus_col_img.webp";
-
 const AboutUs = () => {
   const changeborder = {
     document,
@@ -27,7 +26,7 @@ const AboutUs = () => {
                       <Accordion.Header>
                         <div className="d-flex gap-2 ">
                           <p className="mb-0">Q1. </p>
-                          <p className="mb-0 mw_422">
+                          <p className="mb-0 mw_422 ff_rubik">
                             To Become The Trusted Source For All Things
                             Smartphone In The International Re-Commerce World
                           </p>
@@ -60,7 +59,7 @@ const AboutUs = () => {
                       <Accordion.Header>
                         <div className="d-flex gap-2 ">
                           <p className="mb-0">Q2. </p>
-                          <p className="mb-0 mw_422">
+                          <p className="mb-0 mw_422 ff_rubik">
                             Doing Things The SCal Mobile Way
                           </p>
                         </div>
@@ -91,8 +90,8 @@ const AboutUs = () => {
                     <Accordion.Item eventKey="2">
                       <Accordion.Header>
                         <div className="d-flex gap-2 ">
-                          <p className="mb-0">Q3.</p>
-                          <p className="mb-0 mw_422">
+                          <p className="mb-0 ff_rubik">Q3.</p>
+                          <p className="mb-0 mw_422 ff_rubik">
                             We Stand By Our Core Values Of Integrity & Customer
                             Satisfaction
                           </p>
@@ -108,7 +107,7 @@ const AboutUs = () => {
                           are proud to serve North and South America as well as
                           Europe, Asia, and Australia.
                         </p>
-                        <p className="ff_rubik  pt-1 fw-normal fs_md text-white opacity_07 mb-0">
+                        <p className="ff_rubik pt-1 fw-normal fs_md text-white opacity_07 mb-0">
                           Following a comprehensive market approach, we seek to
                           serve clients of all sizes, including big corporations
                           and consumers. That is why our company consists of two

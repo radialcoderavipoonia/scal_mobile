@@ -8,11 +8,11 @@ const Sec1 = () => {
   Aos.init();
   return (
     <>
-      <section className="position-relative py-lg-5 py-lg-4 pt-4 mt-xl-4 z-3 overflow_x_hidden">
+      <section className="position-relative py-lg-5 py-lg-4 pt-4 mt-xl-4 z-1 overflow_x_hidden">
         <div className="blue_ellipse scale_animation"></div>
         <div className="blue_ellipse2 scale_animation"></div>
         <div className="green_ellipse scale_animation"></div>
-
+        <div className="red_back"></div>
         <div className="pb-5 mt-2 my_container container">
           <Row className="align-items-center justify-content-between">
             <Col lg={6} data-aos="fade-right" data-aos-duration="1500">

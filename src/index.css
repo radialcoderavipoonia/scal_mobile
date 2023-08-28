@@ -5,6 +5,7 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
   scroll-behavior: smooth !important;
+  font-family: "Rubik", sans-serif !important;
 }
 /* clr */
 .color_white90 {
@@ -38,6 +39,9 @@
 }
 .mw_724 {
   max-width: 724px;
+}
+.w_40 {
+  width: 40%;
 }
 /* padding */
 .pt_36 {
@@ -337,7 +341,6 @@ div.accordion-body {
     #0076be 3.65%,
     #48bf91 89.63%
   ) !important;
-  border: 1px solid #ffff;
 }
 .loading {
   z-index: 20;
@@ -492,7 +495,7 @@ div.accordion-body {
 }
 /* line height */
 .lh_120 {
-  line-height: 120%;
+  line-height: 120% !important;
 }
 .lh_112 {
   line-height: 112%;
@@ -613,6 +616,19 @@ div.accordion-body {
   bottom: 0;
   left: -12%;
   cursor: none;
+}
+.red_back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 746px;
+  height: 746px;
+  border-radius: 746px;
+  opacity: 0.2;
+  background: #d93228;
+  filter: blur(388px);
+  pointer-events: none;
 }
 .roadmap_text {
   -webkit-text-stroke: 1px var(--clr-white);
@@ -968,7 +984,7 @@ input {
 }
 
 /* max 768 */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .about_green::before {
     transform: translateX(0);
   }
@@ -985,7 +1001,7 @@ input {
     z-index: -4;
     clip-path: circle(0px at calc(100% - 45px) 45px);
     top: 0;
-    z-index: 20;
+    /* z-index: 20; */
     -webkit-transition: 0.6s all linear !important;
   }
   .backtotop_btn {
@@ -993,7 +1009,7 @@ input {
     margin-bottom: 20px !important;
   }
   .nav_show.showw {
-    opacity: 10;
+    opacity: 1;
     min-height: 518px;
     z-index: 6;
     clip-path: circle(75%);
@@ -1003,7 +1019,7 @@ input {
     overflow: hidden !important;
   }
   .nav_height {
-    min-height: 518px !important;
+    min-height: 100vh !important;
   }
   .road_line::after {
     left: 20px;
@@ -1016,7 +1032,7 @@ input {
 /* max 576 */
 @media (max-width: 576px) {
   .lh_normal_sm {
-    line-height: normal;
+    line-height: normal !important;
   }
   .green_choose::after {
     display: none;
