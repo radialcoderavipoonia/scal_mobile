@@ -232,6 +232,10 @@
   background-color: transparent !important;
   z-index: 2 !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.307) !important ;
+  border-radius: none !important;
+}
+.accordion-item:last-of-type {
+  border-radius: 1px !important;
 }
 .accordion-button:not(.collapsed) {
   color: white !important;
@@ -729,7 +733,7 @@ div.accordion-body {
   position: absolute;
   bottom: 4%;
   right: -4%;
-  filter: blur(0px);
+  filter: blur(100px);
   opacity: 40%;
 }
 .shadow {
