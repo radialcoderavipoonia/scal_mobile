@@ -531,8 +531,8 @@ div.accordion-body {
 .h_150 {
   height: 150px;
 }
-.mh_341px {
-  min-height: 341px;
+.mh_221 {
+  min-height: 221px;
 }
 /* z index */
 .z_10 {
@@ -967,6 +967,9 @@ input {
   .right_-100{
     right: 0;
   }
+  .ml_40{
+    margin-left: 40px;
+  }
 }
 /* max 992 */
 @media (max-width: 992px) {
@@ -987,6 +990,12 @@ input {
   }
   .pb_lg_0 {
     padding-bottom: 0;
+  }
+  .mw_405{
+    max-width: 500px;
+  }
+   .ml_40{
+    margin-left: 0px;
   }
 }
 

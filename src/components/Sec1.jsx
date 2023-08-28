@@ -8,25 +8,25 @@ const Sec1 = () => {
   Aos.init();
   return (
     <>
-      <section className="position-relative py-lg-5 py-lg-4 pt-4 mt-xl-4 z-1 overflow_x_hidden">
+      <section className="position-relative py-lg-5  py-lg-4 pt-5 mt-xl-4 z-1 overflow_x_hidden">
         <div className="blue_ellipse scale_animation"></div>
         <div className="blue_ellipse2 scale_animation"></div>
         <div className="green_ellipse scale_animation"></div>
         <div className="red_back"></div>
         <div className="pb-5 mt-2 my_container container">
-          <Row className="align-items-center justify-content-between">
-            <Col lg={6} data-aos="fade-right" data-aos-duration="1500">
+          <Row className="align-items-center justify-content-lg-between justify-content-center">
+            <Col lg={6} xs={11} sm={10} md={8} data-aos="fade-right" data-aos-duration="1500">
               <div>
-                <img className="mh_341px w-100" src={sec1} alt="sec1" />
+                <img className="mh_221 w-100" src={sec1} alt="sec1" />
               </div>
             </Col>
             <Col
               lg={5}
-              className="pt-lg-0 pt-4"
+              className="pt-lg-0 pt-3"
               data-aos="fade-left"
               data-aos-duration="1500"
             >
-              <div className="d-flex align-items-start">
+              <div className="d-flex align-items-start justify-content-center">
                 <div>
                   <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
                     SCal Mobile marked its presence in
@@ -43,11 +43,11 @@ const Sec1 = () => {
           <Row className="align-items-center flex-column-reverse flex-lg-row justify-content-lg-between justify-content-center">
             <Col
               lg={5}
-              className="pt-lg-0 pt-4"
+              className="pt-lg-0 pt-3 "
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              <div className="d-flex align-items-start">
+              <div className="d-flex align-items-start justify-content-center ml_40">
                 <div>
                   <p className="color_white90 ms-4 ms-sm-0 ff_rubik fw-normal mw_405 fs_xl mb-0  greenlinepera position-relative">
                     What started as a small US-based business has now evolved
@@ -59,26 +59,26 @@ const Sec1 = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={5} md={9} data-aos="fade-left" data-aos-duration="1500">
+            <Col lg={5} xs={10} md={6} sm={9} data-aos="fade-left" data-aos-duration="1500">
               <div className="pt-lg-0 pt-5">
-                <img className="mh_341px w-100 " src={sec2} alt="sec2" />
+                <img className="mh_221 w-100 " src={sec2} alt="sec2" />
               </div>
             </Col>
           </Row>
 
           <Row className="align-items-center justify-content-lg-between justify-content-center pt-5 pb-4 pt-lg-0">
-            <Col lg={5} md={9} data-aos="fade-right" data-aos-duration="1500">
+            <Col lg={5} xs={10} sm={9} md={6} data-aos="fade-right" data-aos-duration="1500">
               <div>
-                <img className="mh_341px w-100 " src={sec3} alt="sec3" />
+                <img className="mh_221 w-100 " src={sec3} alt="sec3" />
               </div>
             </Col>
             <Col
-              lg={5}
-              className="pt-lg-0 pt-4"
+              lg={5} 
+              className="pt-lg-0 pt-3 "
               data-aos="fade-left"
               data-aos-duration="1500"
             >
-              <div className="d-flex align-items-start">
+              <div className="d-flex align-items-start justify-content-center">
                 <div className="pt-4 pt-lg-0">
                   <p className="color_white90 ms-4 ms-sm-0 mw_405 ff_rubik fw-normal fs_xl mb-0  greenlinepera position-relative">
                     From retailers, carriers, distributors, and repair shops to

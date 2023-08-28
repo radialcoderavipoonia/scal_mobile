@@ -10,9 +10,9 @@ export const Hero = () => {
         data-aos="zoom-in"
         data-aos-duration="3000"
       >
-        <div className=" hero_green_shadow position-absolute scale_animation "></div>
+        <div className=" hero_green_shadow position-absolute scale_animation"></div>
         <MyNav />
-        <Container className="my_container pt-4 mt-2 flex-grow-1 d-flex flex-column justify-content-center">
+        <Container className="my_container pt-xs-4 mt-xs-2 flex-grow-1 d-flex flex-column justify-content-center">
           <p className="clr_white ff_rubik text-center fw-medium lh_112 mb-2 fs_5xl mt-5">
             Redefining the Smartphone Re-
             <span className=" d-block">Commerce Industry Since 2010</span>
