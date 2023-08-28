@@ -27,7 +27,7 @@ const Faqs = () => {
                 <h4 className="ff_rubik fw-medium color_white fs_4 mb-0 fs_4xl">
                   FAQs
                 </h4>
-                <Accordion defaultActivekey="0" className="pt-xs-3">
+                <Accordion defaultActivekey="0" className="pt-3">
                   <Accordion.Item
                     className="border_top_bottom px-2"
                     evenKey="0"
@@ -107,7 +107,7 @@ const Faqs = () => {
                   >
                     <Accordion.Header>
                       <h4 className="ff_rubik fw-normal fs_xl text-white mb-0">
-                        <span className="pe-2">Q5.</span> How do I place an order with SCal Mobile?
+                        <span className="pe-2">Q5.</span>   How do I place an order with SCal Mobile?
                       </h4>
                     </Accordion.Header>
                     <Accordion.Body>

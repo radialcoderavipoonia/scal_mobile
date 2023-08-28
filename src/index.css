@@ -111,18 +111,17 @@
   transform: translateX(50%);
   top: 0;
 }
-.green_choose::after {
-  content: "";
+.green_choose_ellipse {
   position: absolute;
+  bottom: 0%;
+  left: -10%;
   width: 354px;
   height: 354px;
   border-radius: 50%;
   opacity: 0.5;
   background: linear-gradient(141deg, #48bf91 0%, #8bd9c7 100%);
   filter: blur(151px);
-  bottom: -10%;
-  left: -50%;
-  transform: translateX(50%);
+  
 }
 .road_circle1:hover::after {
   -webkit-box-shadow: -2px 2px 29px rgb(252, 252, 252);
@@ -801,7 +800,7 @@ div.accordion-body {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transition: 400ms;
+  transition: 420ms;
   pointer-events: none;
 }
 .linear_skyblue_color {
@@ -869,7 +868,7 @@ input {
   opacity: 0.3;
   background: #0076be;
   filter: blur(80px);
-  width: 411px;
+  width: 412px;
   height: 411px;
   position: absolute;
   bottom: -39%;
