@@ -26,7 +26,12 @@ const Services = () => {
                 perPage: 3,
                 perMove: 1,
                 breakpoints: {
-                  992: {},
+                  1200: {
+                    autoplay: true,
+                    dots: "false",
+                    arrows: false,
+                    autoplaySpeed: 3500,
+                  },
                   992: {
                     perPage: 2,
                     gap: "2rem",

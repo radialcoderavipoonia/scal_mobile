@@ -47,7 +47,7 @@
 .pt_36 {
   padding-top: 36px;
 }
-.pt_14{
+.pt_14 {
   padding-top: 14px;
 }
 .py_38 {
@@ -540,14 +540,10 @@ div.accordion-body {
 }
 /* splide slider */
 .splide__pagination {
-  bottom: -10% !important;
+  display: none !important;
 }
 .splide__pagination__page.is-active {
-  background: linear-gradient(
-    136.39deg,
-    #0076be 3.65%,
-    #48bf91 89.63%
-  ) !important;
+  display: none;
 }
 .splide__track {
   padding-top: 30px !important;
@@ -919,8 +915,8 @@ input {
     display: none !important;
   }
 }
-@media (max-width:1400px) {
-  .right_-100{
+@media (max-width: 1400px) {
+  .right_-100 {
     right: -20px;
   }
 }
@@ -964,10 +960,10 @@ input {
   .top_1280 {
     top: 750px;
   }
-  .right_-100{
+  .right_-100 {
     right: 0;
   }
-  .ml_40{
+  .ml_40 {
     margin-left: 40px;
   }
 }
@@ -991,10 +987,10 @@ input {
   .pb_lg_0 {
     padding-bottom: 0;
   }
-  .mw_405{
+  .mw_405 {
     max-width: 500px;
   }
-   .ml_40{
+  .ml_40 {
     margin-left: 0px;
   }
 }
