@@ -790,7 +790,7 @@ div.accordion-body {
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transition: 402ms;
+  transition: 420ms;
   pointer-events: none;
 }
 .linear_skyblue_color {
