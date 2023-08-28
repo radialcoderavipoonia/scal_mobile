@@ -7,7 +7,7 @@ const ContactUs = () => {
     <>
       <section className="position-relative">
         <div className="green_ellipse2 scale_animation "></div>
-
+        <div className="green_choose_ellipse scale_animation"></div>
         <div className="my_container container py-5 position-relative green_choose">
           <div className="d-flex justify-content-center align-items-center text-center mb-3 position-relative z-1">
             <div
